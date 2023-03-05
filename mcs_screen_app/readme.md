@@ -1,8 +1,5 @@
-# STM32F746G_DISCO TBS Version 3.0.16.
+1. Projekt został przygotowany dla TouchGFX 4.21.0 oraz STM32CubeIDE 1.11.0
 
-The default IDE is set to STM32CubeIDE, to change IDE open the STM32F746G_DISCO.ioc with CubeMX and select from the supported IDEs (EWARM from version 8.50.9, MDK-ARM, and STM32CubeIDE). Supports flashing of the STM32F746G_DISCO board directly from TouchGFX Designer using GCC and STM32CubeProgrammer.Flashing the board requires STM32CubeProgrammer which can be downloaded from the ST webpage. 
+2. Aby uruchomić projekt należy pobrać repozytorium do przestrzeni roboczej znajdującej się poza katalogiem w którym zostało zainstalowane STM32CubeIDE (wynika to z tego, że STM32CubeIDE domyślnie instaluje się w katalogu o nazwie "STM32CubeIDE" co koliduje z domyślną nazwą projektu tworzonego w TouchGFX - również o nazwie "STM32CubeIDE").
 
-This TBS is configured for 272 x 480 pixels 16bpp screen resolution.  
-
-Performance testing can be done using the GPIO pins designated with the following signals: VSYNC_FREQ  - Pin PB4(D3), RENDER_TIME - Pin PC6(D1), FRAME_RATE  - Pin PC7(D0), MCU_ACTIVE  - Pin PG6(D2)
- 
+3. W razie błędów kompilacji projektu w STM32CubeIDE należy najpierw skompilować projekt w TouchGFX, a następnie w STM32CubeIDE.
