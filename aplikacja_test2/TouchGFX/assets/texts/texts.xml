@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.21.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_5OI7" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">TS</Translation>
+      </Text>
+      <Text Id="__SingleUse_TB9I" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">P2D</Translation>
+      </Text>
+      <Text Id="__SingleUse_A2OV" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">LOW</Translation>
+      </Text>
+      <Text Id="__SingleUse_RV3R" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_KJRN" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_3SYQ" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_S5GX" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_LEMV" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_DFVL" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KOP2" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">ERR</Translation>
+      </Text>
+      <Text Id="__SingleUse_VO5V" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MOT R</Translation>
+      </Text>
+      <Text Id="__SingleUse_C91E" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_3K5F" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_I8II" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_2VE1" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_DDPI" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">INV R</Translation>
+      </Text>
+      <Text Id="__SingleUse_NBXH" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_C5WJ" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6AS4" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">BAT</Translation>
+      </Text>
+      <Text Id="__SingleUse_2J43" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">INV L</Translation>
+      </Text>
+      <Text Id="__SingleUse_NIM4" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_PYFJ" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PEVD" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_POK9" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_12QF" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MOT L</Translation>
+      </Text>
+      <Text Id="__SingleUse_DT6J" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">TSAC</Translation>
+      </Text>
+      <Text Id="__SingleUse_B0AC" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_BTKU" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PGAN" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_LWZ6" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_7Q3A" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">DIFF</Translation>
+      </Text>
+      <Text Id="__SingleUse_T2NN" Alignment="Left" TypographyId="Roboto_48">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_KTQH" Alignment="Left" TypographyId="Roboto_48">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_EP32" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MAP</Translation>
+      </Text>
+      <Text Id="__SingleUse_YLCY" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_QNEY" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_995A" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">TC</Translation>
+      </Text>
+      <Text Id="__SingleUse_VB8V" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_MPL3" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Roboto_16" Font="Roboto-Bold.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Roboto_30" Font="Roboto-Bold.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Roboto_48" Font="verdana.ttf" Size="48" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

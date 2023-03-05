@@ -1,0 +1,18 @@
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:Screen2Presenter::~Screen2Presenter()	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:12:6:virtual void Screen2Presenter::activate()	0	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual Screen2Presenter::~Screen2Presenter()	8	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:22:6:virtual void Screen2Presenter::map_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:27:6:virtual void Screen2Presenter::tc_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:32:6:virtual void Screen2Presenter::speed_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:37:6:virtual void Screen2Presenter::diff_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:42:6:virtual void Screen2Presenter::tsac_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:47:6:virtual void Screen2Presenter::leng_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:52:6:virtual void Screen2Presenter::linv_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:57:6:virtual void Screen2Presenter::bat_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:62:6:virtual void Screen2Presenter::rinv_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:67:6:virtual void Screen2Presenter::reng_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:72:6:virtual void Screen2Presenter::err_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:77:6:virtual void Screen2Presenter::hv_update_value(uint32_t)	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:82:6:virtual void Screen2Presenter::low_update_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual void* Screen2Presenter::_ZThn4_N16Screen2PresenterD1Ev()	0	static
+D:/TouchGFX/Projekty/aplikacja_test2/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:6:1:Screen2Presenter::Screen2Presenter(Screen2View&)	8	static
