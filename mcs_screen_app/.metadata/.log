@@ -1,0 +1,18 @@
+!SESSION 2023-03-05 18:49:33.103 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-05 18:49:58.006
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-05 18:49:58.130
+!MESSAGE Log4j initialized with config file D:\TouchGFX\Projekty\mcs_screen_app\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-05 18:50:04.426
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-05 18:50:43.972
+!MESSAGE Indexed 'STM32CubeIDE' (146 sources, 370 headers) in 19,2 sec: 31 071 declarations; 124 795 references; 0 unresolved inclusions; 75 syntax errors; 558 unresolved names (0,36%)
