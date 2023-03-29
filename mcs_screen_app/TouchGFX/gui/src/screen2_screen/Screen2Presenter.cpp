@@ -83,3 +83,13 @@ void Screen2Presenter::low_update_value(uint32_t value)
 {
 	view.low_update_value(value);
 }
+
+void Screen2Presenter::p2d_update_value(uint32_t value)
+{
+	view.p2d_update_value(value);
+}
+
+void Screen2Presenter::ts_update_value(uint32_t value)
+{
+	view.ts_update_value(value);
+}

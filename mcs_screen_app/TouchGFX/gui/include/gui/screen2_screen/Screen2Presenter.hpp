@@ -40,6 +40,8 @@ public:
     void err_update_value(uint32_t value) override;
     void hv_update_value(uint32_t value) override;
     void low_update_value(uint32_t value) override;
+    void p2d_update_value(uint32_t value) override;
+    void ts_update_value(uint32_t value) override;
 
 private:
     Screen2Presenter();

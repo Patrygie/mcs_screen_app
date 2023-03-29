@@ -25,6 +25,8 @@ public:
     void err_update_value(uint32_t value);
     void hv_update_value(uint32_t value);
     void low_update_value(uint32_t value);
+    void p2d_update_value(uint32_t value);
+    void ts_update_value(uint32_t value);
 
 protected:
 };

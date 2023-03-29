@@ -7,7 +7,6 @@
 
 extern osMessageQueueId_t queue_model_handle;
 
-
 Model::Model() : modelListener(0)
 {
 
@@ -21,44 +20,50 @@ void Model::tick()
 	{
 		switch(message.ID)
 		{
-		case 0x05:
+		case MAP_I2C_ID:
 			modelListener->map_update_value(message.value);
 			break;
-		case 0x04:
+		case TC_I2C_ID:
 			modelListener->tc_update_value(message.value);
 			break;
-		case 0x03:
+		case SPEED_I2C_ID:
 			modelListener->speed_update_value(message.value);
 			break;
-		case 0x06:
+		case DIFF_I2C_ID:
 			modelListener->diff_update_value(message.value);
 			break;
-		case 0x07:
+		case TSAC_I2C_ID:
 			modelListener->tsac_update_value(message.value);
 			break;
-		case 0x08:
+		case LENG_I2C_ID:
 			modelListener->leng_update_value(message.value);
 			break;
-		case 0x09:
+		case LINV_I2C_ID:
 			modelListener->linv_update_value(message.value);
 			break;
-		case 0xA:
+		case BAT_I2C_ID:
 			modelListener->bat_update_value(message.value);
 			break;
-		case 0xB:
+		case RINV_I2C_ID:
 			modelListener->rinv_update_value(message.value);
 			break;
-		case 0xC:
+		case RENG_I2C_ID:
 			modelListener->reng_update_value(message.value);
 			break;
-		case 0xD:
+		case ERR_I2C_ID:
 			modelListener->err_update_value(message.value);
 			break;
-		case 0xE:
+		case HV_I2C_ID:
 			modelListener->hv_update_value(message.value);
 			break;
-		case 0xF:
+		case LOW_I2C_ID:
 			modelListener->low_update_value(message.value);
+			break;
+		case P2D_I2C_ID:
+			modelListener->p2d_update_value(message.value);
+			break;
+		case TS_I2C_ID:
+			modelListener->ts_update_value(message.value);
 			break;
 		}
 	}

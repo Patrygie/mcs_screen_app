@@ -29,6 +29,8 @@ public:
     virtual void err_update_value(uint32_t value){};
     virtual void hv_update_value(uint32_t value){};
     virtual void low_update_value(uint32_t value){};
+    virtual void p2d_update_value(uint32_t value){};
+    virtual void ts_update_value(uint32_t value){};
 
 protected:
     Model* model;

@@ -186,3 +186,22 @@ void Screen2View::low_update_value(uint32_t value)
 	c_low.invalidate();
 }
 
+void Screen2View::p2d_update_value(uint32_t value)
+{
+
+	if(value == 1)
+	{
+		img_p2d.setBitmap(Bitmap(BITMAP_DRIVE_10A_GREEN_ID));
+		img_p2d.invalidate();
+	}
+}
+
+void Screen2View::ts_update_value(uint32_t value)
+{
+
+	if(value == 1)
+	{
+		img_ts.setBitmap(Bitmap(BITMAP_DRIVE_10A_GREEN_ID));
+		img_ts.invalidate();
+	}
+}
