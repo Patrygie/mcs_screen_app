@@ -42,6 +42,7 @@ public:
     void low_update_value(uint32_t value) override;
     void p2d_update_value(uint32_t value) override;
     void ts_update_value(uint32_t value) override;
+    void gas_update_value(uint32_t value) override;
 
 private:
     Screen2Presenter();

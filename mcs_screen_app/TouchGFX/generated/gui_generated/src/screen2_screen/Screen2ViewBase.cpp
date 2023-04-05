@@ -253,25 +253,27 @@ Screen2ViewBase::Screen2ViewBase()
     add(c_err);
 
     c_hv.setPosition(104, 160, 272, 65);
-    img_hv.setXY(0, 0);
-    img_hv.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_5A_ID));
+    ip_hv_visual.setXY(0, 0);
+    ip_hv_visual.setProgressIndicatorPosition(5, 5, 262, 55);
+    ip_hv_visual.setRange(0, 10);
+    ip_hv_visual.setDirection(touchgfx::AbstractDirectionProgress::RIGHT);
+    ip_hv_visual.setBackground(touchgfx::Bitmap(BITMAP_DRIVE_5A_ID));
+    ip_hv_visual.setBitmap(BITMAP_DRIVE_5C_ID);
+    ip_hv_visual.setValue(10);
+    ip_hv_visual.setAnchorAtZero(true);
+    c_hv.add(ip_hv_visual);
+
+    img_hv.setXY(88, 10);
+    img_hv.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_5B_ID));
     c_hv.add(img_hv);
-
-    img_hvstep.setXY(6, 6);
-    img_hvstep.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_5C_ID));
-    c_hv.add(img_hvstep);
-
-    img_hvrect.setXY(88, 10);
-    img_hvrect.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_5B_ID));
-    c_hv.add(img_hvrect);
 
     ta_hv_value.setXY(108, 14);
     ta_hv_value.setColor(touchgfx::Color::getColorFromRGB(250, 250, 250));
     ta_hv_value.setLinespacing(0);
-    Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_3SYQ).getText());
+    Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_0S5H).getText());
     ta_hv_value.setWildcard(ta_hv_valueBuffer);
     ta_hv_value.resizeToCurrentText();
-    ta_hv_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_S5GX));
+    ta_hv_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_MTZU));
     c_hv.add(ta_hv_value);
 
     add(c_hv);
@@ -325,13 +327,15 @@ Screen2ViewBase::Screen2ViewBase()
     add(c_ts);
 
     c_gas.setPosition(165, 235, 151, 27);
-    img_gasfill.setXY(5, 5);
-    img_gasfill.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_10B_ID));
-    c_gas.add(img_gasfill);
-
-    img_gasrec.setXY(0, 0);
-    img_gasrec.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_10A_ID));
-    c_gas.add(img_gasrec);
+    ip_gas_visual.setXY(1, 0);
+    ip_gas_visual.setProgressIndicatorPosition(4, 4, 142, 19);
+    ip_gas_visual.setRange(0, 100);
+    ip_gas_visual.setDirection(touchgfx::AbstractDirectionProgress::RIGHT);
+    ip_gas_visual.setBackground(touchgfx::Bitmap(BITMAP_DRIVE_10A_ID));
+    ip_gas_visual.setBitmap(BITMAP_DRIVE_10B_ID);
+    ip_gas_visual.setValue(100);
+    ip_gas_visual.setAnchorAtZero(true);
+    c_gas.add(ip_gas_visual);
 
     add(c_gas);
 }

@@ -1,5 +1,5 @@
 Application/User/generated/Table_Roboto_Bold_16_4bpp.o: \
- D:/TouchGFX/Projekty/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_16_4bpp.cpp \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_16_4bpp.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

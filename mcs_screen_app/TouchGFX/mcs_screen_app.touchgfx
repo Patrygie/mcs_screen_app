@@ -626,24 +626,24 @@
             "Height": 65,
             "Components": [
               {
-                "Type": "Image",
-                "Name": "img_hv",
+                "Type": "ImageProgress",
+                "Name": "ip_hv_visual",
                 "Width": 272,
                 "Height": 65,
-                "RelativeFilename": "drive_5a.png"
+                "FileNameProgress": "drive_5c.png",
+                "AnchorAtZero": true,
+                "Direction": "Right",
+                "FileNameBackground": "drive_5a.png",
+                "IndicatorPositionX": 5,
+                "IndicatorPositionY": 5,
+                "IndicatorPositionWidth": 262,
+                "IndicatorPositionHeight": 55,
+                "ProgressRangeMax": 10,
+                "ProgressInitialValue": 10
               },
               {
                 "Type": "Image",
-                "Name": "img_hvstep",
-                "X": 6,
-                "Y": 6,
-                "Width": 259,
-                "Height": 54,
-                "RelativeFilename": "drive_5c.png"
-              },
-              {
-                "Type": "Image",
-                "Name": "img_hvrect",
+                "Name": "img_hv",
                 "X": 88,
                 "Y": 10,
                 "Width": 96,
@@ -657,7 +657,7 @@
                 "Y": 14,
                 "Width": 56,
                 "Height": 37,
-                "TextId": "__SingleUse_S5GX",
+                "TextId": "__SingleUse_MTZU",
                 "TextRotation": "0",
                 "Color": {
                   "Red": 250,
@@ -666,7 +666,7 @@
                 },
                 "AutoSize": true,
                 "Wildcard1": {
-                  "TextId": "__SingleUse_3SYQ",
+                  "TextId": "__SingleUse_0S5H",
                   "UseBuffer": true,
                   "BufferSize": 10
                 }
@@ -803,20 +803,21 @@
             "Height": 27,
             "Components": [
               {
-                "Type": "Image",
-                "Name": "img_gasfill",
-                "X": 5,
-                "Y": 5,
-                "Width": 140,
-                "Height": 17,
-                "RelativeFilename": "drive_10b.png"
-              },
-              {
-                "Type": "Image",
-                "Name": "img_gasrec",
+                "Type": "ImageProgress",
+                "Name": "ip_gas_visual",
+                "X": 1,
                 "Width": 150,
                 "Height": 27,
-                "RelativeFilename": "drive_10a.png"
+                "FileNameProgress": "drive_10b.png",
+                "AnchorAtZero": true,
+                "Direction": "Right",
+                "FileNameBackground": "drive_10a.png",
+                "IndicatorPositionX": 4,
+                "IndicatorPositionY": 4,
+                "IndicatorPositionWidth": 142,
+                "IndicatorPositionHeight": 19,
+                "ProgressRangeMax": 100,
+                "ProgressInitialValue": 100
               }
             ]
           }
@@ -831,7 +832,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen2",
+    "StartupScreenName": "Screen1",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",

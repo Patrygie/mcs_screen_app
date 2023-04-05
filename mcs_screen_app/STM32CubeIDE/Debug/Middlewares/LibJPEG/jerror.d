@@ -1,5 +1,5 @@
 Middlewares/LibJPEG/jerror.o: \
- D:/TouchGFX/Projekty/mcs_screen_app/Middlewares/Third_Party/LibJPEG/source/jerror.c \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/Third_Party/LibJPEG/source/jerror.c \
  ../../Middlewares/Third_Party/LibJPEG/include/jinclude.h \
  ../../LIBJPEG/Target/jconfig.h ../../LIBJPEG/Target/jdata_conf.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \

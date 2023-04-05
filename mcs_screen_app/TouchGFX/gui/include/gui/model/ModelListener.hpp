@@ -31,6 +31,7 @@ public:
     virtual void low_update_value(uint32_t value){};
     virtual void p2d_update_value(uint32_t value){};
     virtual void ts_update_value(uint32_t value){};
+    virtual void gas_update_value(uint32_t value){};
 
 protected:
     Model* model;

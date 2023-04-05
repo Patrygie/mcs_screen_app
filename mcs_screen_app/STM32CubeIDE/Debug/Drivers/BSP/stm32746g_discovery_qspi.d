@@ -1,6 +1,6 @@
 Drivers/BSP/stm32746g_discovery_qspi.o: \
- D:/TouchGFX/Projekty/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c \
- D:/TouchGFX/Projekty/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -37,8 +37,8 @@ Drivers/BSP/stm32746g_discovery_qspi.o: \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_qspi.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
- d:\touchgfx\projekty\mcs_screen_app\drivers\bsp\components\n25q128a\n25q128a.h
-D:/TouchGFX/Projekty/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h:
+ c:\users\patry\desktop\bolidspotkanie2\projekt\mcs_screen_app\drivers\bsp\components\n25q128a\n25q128a.h
+C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h:
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../../Core/Inc/stm32f7xx_hal_conf.h:
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
@@ -75,4 +75,4 @@ D:/TouchGFX/Projekty/mcs_screen_app/Drivers/BSP/STM32746G-Discovery/stm32746g_di
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_qspi.h:
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h:
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
-d:\touchgfx\projekty\mcs_screen_app\drivers\bsp\components\n25q128a\n25q128a.h:
+c:\users\patry\desktop\bolidspotkanie2\projekt\mcs_screen_app\drivers\bsp\components\n25q128a\n25q128a.h:

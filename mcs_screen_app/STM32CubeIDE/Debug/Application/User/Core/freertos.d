@@ -1,5 +1,5 @@
 Application/User/Core/freertos.o: \
- D:/TouchGFX/Projekty/mcs_screen_app/Core/Src/freertos.c \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Core/Src/freertos.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

@@ -1,5 +1,5 @@
 Application/User/generated/SVGDatabase.o: \
- D:/TouchGFX/Projekty/mcs_screen_app/TouchGFX/generated/images/src/SVGDatabase.cpp \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/images/src/SVGDatabase.cpp \
  ../../TouchGFX/generated/images/include/images/SVGDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

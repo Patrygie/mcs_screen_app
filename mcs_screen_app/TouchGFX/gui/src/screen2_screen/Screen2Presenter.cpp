@@ -93,3 +93,8 @@ void Screen2Presenter::ts_update_value(uint32_t value)
 {
 	view.ts_update_value(value);
 }
+
+void Screen2Presenter::gas_update_value(uint32_t value)
+{
+	view.gas_update_value(value);
+}

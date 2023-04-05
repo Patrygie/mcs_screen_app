@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/tasks.o: \
- D:/TouchGFX/Projekty/mcs_screen_app/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
+ C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

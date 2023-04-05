@@ -12,6 +12,7 @@
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/containers/progress_indicators/ImageProgress.hpp>
 
 class Screen2ViewBase : public touchgfx::View<Screen2Presenter>
 {
@@ -74,9 +75,8 @@ protected:
     touchgfx::TextArea ta_err_title;
     touchgfx::Image img_err;
     touchgfx::Container c_hv;
+    touchgfx::ImageProgress ip_hv_visual;
     touchgfx::Image img_hv;
-    touchgfx::Image img_hvstep;
-    touchgfx::Image img_hvrect;
     touchgfx::TextAreaWithOneWildcard ta_hv_value;
     touchgfx::Container c_low;
     touchgfx::TextAreaWithOneWildcard ta_low_value;
@@ -89,8 +89,7 @@ protected:
     touchgfx::TextArea ta_ts_title;
     touchgfx::Image img_ts;
     touchgfx::Container c_gas;
-    touchgfx::Image img_gasfill;
-    touchgfx::Image img_gasrec;
+    touchgfx::ImageProgress ip_gas_visual;
 
     /*
      * Wildcard Buffers

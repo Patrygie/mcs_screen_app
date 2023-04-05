@@ -40,21 +40,24 @@ extern "C" {
 
 enum I2C_MSG_ID
 {
-	MAP_I2C_ID = 0x3Cu,
-	TC_I2C_ID = 0x3Du,
-	DIFF_I2C_ID = 0x3Eu,
-	TSAC_I2C_ID = 0x3Fu,
-	SPEED_I2C_ID = 0x40u,
-	LENG_I2C_ID = 0x41u,
-	RENG_I2C_ID = 0x42u,
-	LINV_I2C_ID = 0x43u,
-	RINV_I2C_ID = 0x44u,
-	BAT_I2C_ID = 0x45u,
-	HV_I2C_ID = 0x46u,
-	LOW_I2C_ID = 0x47u,
-	ERR_I2C_ID = 0x48u,
-	P2D_I2C_ID = 0x49u,
-	TS_I2C_ID = 0x4Au
+	MSG_ID_SCREEN2 = 0x01u,
+	MSG_ID_GAS = 0x02u,
+
+	I2C_MAP_ID = 0x3Cu,
+	I2C_TC_ID = 0x3Du,
+	I2C_DIFF_ID = 0x3Eu,
+	I2C_TSAC_ID = 0x3Fu,
+	I2C_SPEED_ID = 0x40u,
+	I2C_LENG_ID = 0x41u,
+	I2C_RENG_ID = 0x42u,
+	I2C_LINV_ID = 0x43u,
+	I2C_RINV_ID = 0x44u,
+	I2C_BAT_ID = 0x45u,
+	I2C_HV_ID = 0x46u,
+	I2C_LOW_ID = 0x47u,
+	I2C_ERR_ID = 0x48u,
+	I2C_P2D_ID = 0x49u,
+	I2C_TS_ID = 0x4Au
 };
 
 typedef struct

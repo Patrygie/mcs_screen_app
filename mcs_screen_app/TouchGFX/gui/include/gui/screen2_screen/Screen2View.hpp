@@ -27,6 +27,7 @@ public:
     void low_update_value(uint32_t value);
     void p2d_update_value(uint32_t value);
     void ts_update_value(uint32_t value);
+    void gas_update_value(uint32_t value);
 
 protected:
 };

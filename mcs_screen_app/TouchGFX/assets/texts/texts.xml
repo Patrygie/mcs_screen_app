@@ -6,6 +6,12 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_0S5H" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">00%</Translation>
+      </Text>
+      <Text Id="__SingleUse_MTZU" Alignment="Center" TypographyId="Roboto_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
       <Text Id="__SingleUse_5OI7" Alignment="Left" TypographyId="Roboto_16">
         <Translation Language="GB">TS</Translation>
       </Text>
@@ -19,12 +25,6 @@
         <Translation Language="GB">00</Translation>
       </Text>
       <Text Id="__SingleUse_KJRN" Alignment="Left" TypographyId="Roboto_30">
-        <Translation Language="GB">&lt;value&gt;%</Translation>
-      </Text>
-      <Text Id="__SingleUse_3SYQ" Alignment="Left" TypographyId="Roboto_30">
-        <Translation Language="GB">00</Translation>
-      </Text>
-      <Text Id="__SingleUse_S5GX" Alignment="Left" TypographyId="Roboto_30">
         <Translation Language="GB">&lt;value&gt;%</Translation>
       </Text>
       <Text Id="__SingleUse_LEMV" Alignment="Left" TypographyId="Roboto_30">
@@ -127,7 +127,7 @@
   </Texts>
   <Typographies>
     <Typography Id="Roboto_16" Font="Roboto-Bold.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Roboto_30" Font="Roboto-Bold.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Roboto_30" Font="Roboto-Bold.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789%" />
     <Typography Id="Roboto_48" Font="verdana.ttf" Size="48" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
   </Typographies>
 </TextDatabase>

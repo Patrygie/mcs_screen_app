@@ -172,10 +172,16 @@ void Screen2View::err_update_value(uint32_t value)
 
 void Screen2View::hv_update_value(uint32_t value)
 {
-	Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE, "%d", value);
-	ta_hv_value.resizeToCurrentTextWithAlignment();
-	ta_hv_value.centerX();
-	c_hv.invalidate();
+	Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE,"%d%", value);
+	ta_hv_value.invalidate();
+
+	ip_hv_visual.setValue(value / 10);
+	ip_hv_visual.invalidate();
+
+//	Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE, "%d", value);
+//	ta_hv_value.resizeToCurrentTextWithAlignment();
+//	ta_hv_value.centerX();
+//	c_hv.invalidate();
 }
 
 void Screen2View::low_update_value(uint32_t value)
@@ -205,3 +211,10 @@ void Screen2View::ts_update_value(uint32_t value)
 		img_ts.invalidate();
 	}
 }
+
+void Screen2View::gas_update_value(uint32_t value)
+{
+	ip_gas_visual.setValue(value);
+	ip_gas_visual.invalidate();
+}
+
