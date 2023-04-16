@@ -1,5 +1,5 @@
 Application/User/generated/TypedTextDatabase.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

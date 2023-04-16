@@ -6,6 +6,36 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_MG8Y" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">AMS</Translation>
+      </Text>
+      <Text Id="__SingleUse_11XZ" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">R Motor Driver</Translation>
+      </Text>
+      <Text Id="__SingleUse_R0VR" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">L Motor Driver</Translation>
+      </Text>
+      <Text Id="__SingleUse_MEP1" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MSC_rear_ec</Translation>
+      </Text>
+      <Text Id="__SingleUse_MM2A" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MCS_front_sens</Translation>
+      </Text>
+      <Text Id="__SingleUse_YMMW" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MCS_lv</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZOF1" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MCS_hv</Translation>
+      </Text>
+      <Text Id="__SingleUse_QJIA" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MCS_scrn</Translation>
+      </Text>
+      <Text Id="__SingleUse_5LFY" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">MCS_main</Translation>
+      </Text>
+      <Text Id="__SingleUse_OH4P" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">CAN STATUS</Translation>
+      </Text>
       <Text Id="__SingleUse_0S5H" Alignment="Left" TypographyId="Roboto_16">
         <Translation Language="GB">00%</Translation>
       </Text>

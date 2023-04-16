@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp \
  ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
@@ -100,6 +100,9 @@ Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp \
+ ../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp \
+ ../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp \
@@ -241,6 +244,9 @@ Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp:
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp:
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VectorRenderer.hpp:

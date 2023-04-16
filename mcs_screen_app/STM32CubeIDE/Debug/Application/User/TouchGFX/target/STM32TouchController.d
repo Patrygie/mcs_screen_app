@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/STM32TouchController.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/target/STM32TouchController.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/target/STM32TouchController.cpp \
  ../../TouchGFX/target/STM32TouchController.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

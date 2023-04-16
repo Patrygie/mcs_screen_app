@@ -21,3 +21,16 @@ void FrontendApplication::goto_screen2(){
 
 	pendingScreenTransitionCallback = &customTransitionCallback;
 }
+
+
+
+
+void FrontendApplication::goto_screen3_impl(){
+	touchgfx::makeTransition<Screen3View, Screen3Presenter, touchgfx::NoTransition, Model>(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+void FrontendApplication::goto_screen3(){
+	customTransitionCallback3 = touchgfx::Callback<FrontendApplication>(this, &FrontendApplication::goto_screen3_impl);
+
+	pendingScreenTransitionCallback = &customTransitionCallback3;
+}

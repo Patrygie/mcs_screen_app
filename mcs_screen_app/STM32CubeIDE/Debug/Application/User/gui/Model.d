@@ -1,5 +1,5 @@
 Application/User/gui/Model.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/gui/src/model/Model.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/model/Model.cpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../Core/Inc/main.h \

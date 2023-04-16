@@ -1,2 +1,2 @@
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/Table_verdana_48_4bpp.cpp:35:168:void __tcf_0()	0	static
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/Table_verdana_48_4bpp.cpp:33:26:touchgfx::GeneratedFont& getFont_verdana_48_4bpp()	72	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_verdana_48_4bpp.cpp:35:168:void __tcf_0()	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_verdana_48_4bpp.cpp:33:26:touchgfx::GeneratedFont& getFont_verdana_48_4bpp()	72	static

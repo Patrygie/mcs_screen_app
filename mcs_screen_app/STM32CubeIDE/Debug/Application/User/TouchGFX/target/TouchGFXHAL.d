@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/TouchGFXHAL.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/target/TouchGFXHAL.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/target/TouchGFXHAL.cpp \
  ../../TouchGFX/target/TouchGFXHAL.hpp \
  ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \

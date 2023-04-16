@@ -16,6 +16,11 @@ public:
         model = m;
     }
 
+
+    virtual void btn_update_value(uint32_t value){};
+    virtual void can_status_mcs_main_update_value(uint32_t value){};
+    virtual void can_status_mcs_hv_update_value(uint32_t value){};
+
     virtual void map_update_value(uint32_t value){};
     virtual void tc_update_value(uint32_t value){};
     virtual void speed_update_value(uint32_t value){};

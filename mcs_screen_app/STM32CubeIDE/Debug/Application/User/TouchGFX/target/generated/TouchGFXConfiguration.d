@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
  ../../TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \
@@ -101,6 +101,9 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp \
+ ../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp \
+ ../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp \
  ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
  ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
@@ -210,6 +213,9 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp:
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp:
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp:
 ../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
 ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:

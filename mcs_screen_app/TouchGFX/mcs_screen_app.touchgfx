@@ -823,6 +823,269 @@
           }
         ],
         "Interactions": []
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "can_status_background",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 5
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "img_can_status",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "can_status_1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_can_status_title",
+            "X": 151,
+            "Y": 10,
+            "Width": 179,
+            "Height": 37,
+            "TextId": "__SingleUse_OH4P",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_main_title",
+            "X": 309,
+            "Y": 66,
+            "Width": 77,
+            "Height": 20,
+            "TextId": "__SingleUse_5LFY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_scrn_title",
+            "X": 69,
+            "Y": 66,
+            "Width": 73,
+            "Height": 20,
+            "TextId": "__SingleUse_QJIA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_hv_title",
+            "X": 76,
+            "Y": 106,
+            "Width": 58,
+            "Height": 20,
+            "TextId": "__SingleUse_ZOF1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_lv_title",
+            "X": 320,
+            "Y": 106,
+            "Width": 54,
+            "Height": 20,
+            "TextId": "__SingleUse_YMMW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_front_sens_title",
+            "X": 46,
+            "Y": 145,
+            "Width": 118,
+            "Height": 20,
+            "TextId": "__SingleUse_MM2A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_rear_ec_title",
+            "X": 300,
+            "Y": 145,
+            "Width": 94,
+            "Height": 20,
+            "TextId": "__SingleUse_MEP1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_l_motor_driver_title",
+            "X": 54,
+            "Y": 185,
+            "Width": 102,
+            "Height": 20,
+            "TextId": "__SingleUse_R0VR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_r_motor_drive_title",
+            "X": 295,
+            "Y": 185,
+            "Width": 104,
+            "Height": 20,
+            "TextId": "__SingleUse_11XZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_ams_title",
+            "X": 208,
+            "Y": 225,
+            "Width": 34,
+            "Height": 20,
+            "TextId": "__SingleUse_MG8Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "img_scrn_ok",
+            "X": 209,
+            "Y": 63,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_hv_ok",
+            "X": 209,
+            "Y": 103,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_front_sens_ok",
+            "X": 209,
+            "Y": 143,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_l_motor_driver_ok",
+            "X": 209,
+            "Y": 183,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_main_ok",
+            "X": 444,
+            "Y": 63,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_lv_ok",
+            "X": 444,
+            "Y": 103,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_rear_ec_ok",
+            "X": 444,
+            "Y": 143,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_r_motor_driver_ok",
+            "X": 444,
+            "Y": 183,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_ams_ok",
+            "X": 326,
+            "Y": 223,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "can_status_2b.png"
+          }
+        ],
+        "Interactions": []
       }
     ],
     "CustomContainerDefinitions": [],

@@ -22,16 +22,38 @@ void Model::tick()
 	{
 		switch(message.ID)
 		{
+		case MSG_ID_SCREEN3:
+			FrontendApplication* App3;
+
+			App3 = static_cast<FrontendApplication*>(Application::getInstance());
+
+			App3->goto_screen3();
+			break;
+
+		case I2C_SCRN_OK_ID:
+			modelListener->btn_update_value(message.value);
+			break;
+
+		case I2C_MAIN_OK_ID:
+			modelListener->can_status_mcs_main_update_value(message.value);
+			break;
+
+		case I2C_HV_OK_ID:
+			modelListener->can_status_mcs_hv_update_value(message.value);
+			break;
+
 		case MSG_ID_SCREEN2:
 			FrontendApplication* App;
 
 			App = static_cast<FrontendApplication*>(Application::getInstance());
 
 			App->goto_screen2();
+			break;
 
 		case MSG_ID_GAS:
 			modelListener->gas_update_value(message.value);
 			break;
+
 
 
 		case I2C_MAP_ID:

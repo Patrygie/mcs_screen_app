@@ -20,11 +20,14 @@ public:
     }
 
     void goto_screen2();
+    void goto_screen3();
 
 private:
     touchgfx::Callback<FrontendApplication> customTransitionCallback;
+    touchgfx::Callback<FrontendApplication> customTransitionCallback3;
 
     void goto_screen2_impl();
+    void goto_screen3_impl();
 };
 
 #endif // FRONTENDAPPLICATION_HPP

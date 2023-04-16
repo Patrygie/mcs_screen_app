@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/CortexMMCUInstrumentation.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/target/CortexMMCUInstrumentation.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/target/CortexMMCUInstrumentation.cpp \
  ../../TouchGFX/target/CortexMMCUInstrumentation.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

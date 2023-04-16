@@ -1,5 +1,5 @@
 Application/User/gui/Screen2Presenter.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp \
  ../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/screen2_screen/Screen2ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

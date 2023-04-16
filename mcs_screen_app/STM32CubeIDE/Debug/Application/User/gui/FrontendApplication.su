@@ -16,6 +16,8 @@
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:16:18:virtual void FrontendApplication::handleTickEvent()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:89:18:virtual void touchgfx::Transition::invalidate()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	8	static
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:14:6:void FrontendApplication::goto_screen2_impl()	40	static
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:8:1:FrontendApplication::FrontendApplication(Model&, FrontendHeap&)	8	static
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:18:6:void FrontendApplication::goto_screen2()	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:28:6:void FrontendApplication::goto_screen3_impl()	40	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:14:6:void FrontendApplication::goto_screen2_impl()	40	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:8:1:FrontendApplication::FrontendApplication(Model&, FrontendHeap&)	8	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:18:6:void FrontendApplication::goto_screen2()	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp:32:6:void FrontendApplication::goto_screen3()	0	static

@@ -1,2 +1,2 @@
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_16_4bpp.cpp:46:184:void __tcf_0()	0	static
-C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_16_4bpp.cpp:44:26:touchgfx::GeneratedFont& getFont_Roboto_Bold_16_4bpp()	72	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_16_4bpp.cpp:61:184:void __tcf_0()	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_16_4bpp.cpp:59:26:touchgfx::GeneratedFont& getFont_Roboto_Bold_16_4bpp()	72	static

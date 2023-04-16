@@ -1,5 +1,5 @@
 Application/User/generated/ApplicationFontProvider.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/FontManager.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

@@ -40,11 +40,20 @@ extern "C" {
 
 enum I2C_MSG_ID
 {
+	I2C_CHANGE_SCRN_TO_1 = 0x05u,
+	I2C_SCRN_OK_ID = 0x0Au,
+	I2C_MAIN_OK_ID = 0x0Bu,
+	I2C_HV_OK_ID = 0x0Cu,
+
 	MSG_ID_SCREEN2 = 0x01u,
+	MSG_ID_SCREEN3 = 0x03u,
 	MSG_ID_GAS = 0x02u,
 
+	I2C_PLUS_ID = 0x1Eu,
+
+
 	I2C_MAP_ID = 0x3Cu,
-	I2C_TC_ID = 0x3Du,
+	I2C_TC_ID = 0x4Bu,
 	I2C_DIFF_ID = 0x3Eu,
 	I2C_TSAC_ID = 0x3Fu,
 	I2C_SPEED_ID = 0x40u,

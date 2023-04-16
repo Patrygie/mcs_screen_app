@@ -1,5 +1,5 @@
 Application/User/generated/BitmapDatabase.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/images/src/BitmapDatabase.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/images/src/BitmapDatabase.cpp \
  ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

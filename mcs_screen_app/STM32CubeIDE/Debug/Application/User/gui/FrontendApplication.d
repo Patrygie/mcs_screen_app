@@ -1,5 +1,5 @@
 Application/User/gui/FrontendApplication.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/common/FrontendApplication.cpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -97,7 +97,10 @@ Application/User/gui/FrontendApplication.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp \
+ ../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp \
+ ../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
@@ -196,3 +199,6 @@ Application/User/gui/FrontendApplication.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TiledImage.hpp:
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen3_screen/Screen3ViewBase.hpp:
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp:

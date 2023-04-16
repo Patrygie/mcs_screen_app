@@ -1,0 +1,10 @@
+22:37:21 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+1652724	    328	1401564	3054616	 2e9c18	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+
+22:37:24 Build Finished. 0 errors, 0 warnings. (took 3s.109ms)
+

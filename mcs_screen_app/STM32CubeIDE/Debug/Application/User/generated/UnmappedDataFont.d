@@ -1,5 +1,5 @@
 Application/User/generated/UnmappedDataFont.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

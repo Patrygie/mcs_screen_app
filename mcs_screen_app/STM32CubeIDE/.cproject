@@ -129,6 +129,7 @@
                   <listOptionValue builtIn="false" value="D:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="D:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
+                  <listOptionValue builtIn="false" value="D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                 </option>
                 <inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.759218838" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
                   <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -271,6 +272,7 @@
                   <listOptionValue builtIn="false" value="D:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="D:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
+                  <listOptionValue builtIn="false" value="D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                 </option>
                 <inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.961771524" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
                   <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>

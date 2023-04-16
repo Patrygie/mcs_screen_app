@@ -1,5 +1,5 @@
 Application/User/generated/CachedFont.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/fonts/src/CachedFont.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/CachedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp \
  ../../TouchGFX/generated/fonts/include/fonts/FontCache.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

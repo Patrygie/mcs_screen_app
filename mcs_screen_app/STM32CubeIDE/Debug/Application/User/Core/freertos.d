@@ -1,5 +1,5 @@
 Application/User/Core/freertos.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Core/Src/freertos.c \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Core/Src/freertos.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

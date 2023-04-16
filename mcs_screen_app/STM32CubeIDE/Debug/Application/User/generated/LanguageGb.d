@@ -1,5 +1,5 @@
 Application/User/generated/LanguageGb.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/TouchGFX/generated/texts/src/LanguageGb.cpp \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/texts/src/LanguageGb.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp

@@ -25,7 +25,22 @@ KEEP extern const touchgfx::GlyphNode glyphs_Roboto_Bold_16_4bpp[] FONT_TABLE_LO
     {   984, 0x0053,  10,  12,  12,   0,  10,   0,   0, 0x00 },
     {  1044, 0x0054,  10,  12,  12,   0,  10,   5,   4, 0x00 },
     {  1104, 0x0056,  11,  12,  12,   0,  10,   9,   2, 0x00 },
-    {  1176, 0x0057,  14,  12,  12,   0,  14,  11,   1, 0x00 }
+    {  1176, 0x0057,  14,  12,  12,   0,  14,  11,   1, 0x00 },
+    {  1260, 0x005F,   8,   2,   0,   0,   7,   0,   0, 0x00 },
+    {  1268, 0x0061,   8,   9,   9,   0,   9,  12,   1, 0x00 },
+    {  1304, 0x0063,   8,   9,   9,   0,   8,  13,   1, 0x00 },
+    {  1340, 0x0065,   9,   9,   9,   0,   9,  14,   1, 0x00 },
+    {  1385, 0x0066,   6,  12,  12,   0,   6,   0,   0, 0x00 },
+    {  1421, 0x0068,   9,  12,  12,   0,   9,   0,   0, 0x00 },
+    {  1481, 0x0069,   4,  12,  12,   0,   4,   0,   0, 0x00 },
+    {  1505, 0x006C,   3,  12,  12,   1,   4,   0,   0, 0x00 },
+    {  1529, 0x006D,  13,   9,   9,   0,  14,  15,   1, 0x00 },
+    {  1592, 0x006E,   9,   9,   9,   0,   9,  16,   1, 0x00 },
+    {  1637, 0x006F,   9,   9,   9,   0,   9,  17,   1, 0x00 },
+    {  1682, 0x0072,   6,   9,   9,   0,   6,  18,   1, 0x00 },
+    {  1709, 0x0073,   8,   9,   9,   0,   8,  19,   1, 0x00 },
+    {  1745, 0x0074,   6,  11,  11,   0,   5,   0,   0, 0x00 },
+    {  1778, 0x0076,   8,   9,   9,   0,   8,  20,   2, 0x00 }
 };
 
 // Roboto_Bold_16_4bpp
@@ -43,6 +58,6 @@ touchgfx::GeneratedFont& getFont_Roboto_Bold_16_4bpp();
 
 touchgfx::GeneratedFont& getFont_Roboto_Bold_16_4bpp()
 {
-    static touchgfx::GeneratedFont Roboto_Bold_16_4bpp(glyphs_Roboto_Bold_16_4bpp, 22, 16, 16, 0, 0, 4, 1, 0, 1, unicodes_Roboto_Bold_16_4bpp, kerning_Roboto_Bold_16_4bpp, 63, 0, 0, 0);
+    static touchgfx::GeneratedFont Roboto_Bold_16_4bpp(glyphs_Roboto_Bold_16_4bpp, 37, 18, 16, 0, 0, 4, 1, 0, 1, unicodes_Roboto_Bold_16_4bpp, kerning_Roboto_Bold_16_4bpp, 63, 0, 0, 0);
     return Roboto_Bold_16_4bpp;
 }

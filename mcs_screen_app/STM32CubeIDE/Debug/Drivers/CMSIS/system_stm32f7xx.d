@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32f7xx.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Core/Src/system_stm32f7xx.c \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Core/Src/system_stm32f7xx.c \
  ../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f746xx.h \
  ../../Drivers/CMSIS/Include/core_cm7.h \

@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/timers.o: \
- C:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/Third_Party/FreeRTOS/Source/timers.c \
+ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/Third_Party/FreeRTOS/Source/timers.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
