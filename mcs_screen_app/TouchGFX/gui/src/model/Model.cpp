@@ -31,7 +31,7 @@ void Model::tick()
 			break;
 
 		case I2C_SCRN_OK_ID:
-			modelListener->btn_update_value(message.value);
+			modelListener->can_status_mcs_scrn_update_value(message.value);
 			break;
 
 		case I2C_MAIN_OK_ID:
@@ -40,6 +40,47 @@ void Model::tick()
 
 		case I2C_HV_OK_ID:
 			modelListener->can_status_mcs_hv_update_value(message.value);
+			break;
+
+		case I2C_LV_OK_ID:
+			modelListener->can_status_mcs_lv_update_value(message.value);
+			break;
+
+		case I2C_FRONT_SENS_OK_ID:
+			modelListener->can_status_mcs_front_sens_update_value(message.value);
+			break;
+
+		case I2C_REAR_EC_OK_ID:
+			modelListener->can_status_mcs_rear_ec_update_value(message.value);
+			break;
+
+		case I2C_L_MOTOR_DRIVER_OK_ID:
+			modelListener->can_status_mcs_l_motor_driver_update_value(message.value);
+			break;
+
+		case I2C_R_MOTOR_DRIVER_OK_ID:
+			modelListener->can_status_mcs_r_motor_driver_update_value(message.value);
+			break;
+
+		case I2C_AMS_OK_ID:
+			modelListener->can_status_mcs_ams_update_value(message.value);
+			break;
+
+		case MSG_ID_SCREEN4:
+			FrontendApplication* App4;
+
+			App4 = static_cast<FrontendApplication*>(Application::getInstance());
+
+			App4->goto_screen4();
+			break;
+
+
+		case I2C_CAR_CONFIG_BRAKE_MIN_VALUE_ID:
+			modelListener->car_config_brake_min_update_value(message.value);
+			break;
+
+		case I2C_CAR_CONFIG_BRAKE_MAX_VALUE_ID:
+			modelListener->car_config_brake_max_update_value(message.value);
 			break;
 
 		case MSG_ID_SCREEN2:

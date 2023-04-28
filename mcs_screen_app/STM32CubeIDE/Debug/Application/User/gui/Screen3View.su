@@ -6,6 +6,12 @@ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Scree
 ../../TouchGFX/gui/include/gui/screen3_screen/Screen3View.hpp:11:13:virtual Screen3View::~Screen3View()	8	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:5:1:Screen3View::Screen3View()	8	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:10:6:virtual void Screen3View::setupScreen()	0	static
-D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:20:6:void Screen3View::btn_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:20:6:void Screen3View::can_status_mcs_scrn_update_value(uint32_t)	24	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:29:6:void Screen3View::can_status_mcs_main_update_value(uint32_t)	24	static
-D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:35:6:void Screen3View::can_status_mcs_hv_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:38:6:void Screen3View::can_status_mcs_hv_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:47:6:void Screen3View::can_status_mcs_lv_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:56:6:void Screen3View::can_status_mcs_front_sens_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:65:6:void Screen3View::can_status_mcs_rear_ec_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:74:6:void Screen3View::can_status_mcs_l_motor_driver_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:83:6:void Screen3View::can_status_mcs_r_motor_driver_update_value(uint32_t)	24	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen3_screen/Screen3View.cpp:92:6:void Screen3View::can_status_mcs_ams_update_value(uint32_t)	24	static

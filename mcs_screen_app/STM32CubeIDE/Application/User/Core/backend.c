@@ -83,10 +83,44 @@ void backend(void* argument)
 						};
 				osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 			}
+			data_buffer[0] = 0;
 			screen_page++;
 		}
 
 		else if(screen_page == 2)
+		{
+			Message_t message = {
+						.ID = MSG_ID_SCREEN4
+			};
+			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+
+			uint8_t CAN_3bytes_data[3];
+			uint16_t combined_value = 0;
+
+//			while(data_buffer[0] != I2C_PLUS_ID)
+			while(CAN_3bytes_data[0] != I2C_PLUS_ID)
+			{
+
+				combined_value = 0;
+				CAN_3bytes_data[0] = 0;
+				CAN_3bytes_data[1] = 0;
+				CAN_3bytes_data[2] = 0;
+				if(HAL_I2C_Slave_Receive(&hi2c1, CAN_3bytes_data, /*data_size*/3, HAL_MAX_DELAY) == HAL_OK);
+
+				combined_value |= (CAN_3bytes_data[2] << 8) | (CAN_3bytes_data[1]);
+
+				Message_t message = {
+							.ID = CAN_3bytes_data[0],
+							.value = combined_value
+//							.value = data_buffer[1]
+						};
+				osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+			}
+
+			screen_page++;
+		}
+
+		else if(screen_page == 3)
 		{
 			Message_t message = {
 						.ID = MSG_ID_SCREEN2
@@ -95,7 +129,7 @@ void backend(void* argument)
 			screen_page++;
 		}
 
-		else
+		else if(screen_page == 4)
 		{
 			if(HAL_I2C_Slave_Receive(&hi2c1, data_buffer, data_size, HAL_MAX_DELAY) == HAL_OK);
 //					if(HAL_I2C_Slave_Receive_IT(&hi2c1, data_buffer, data_size) == HAL_OK);

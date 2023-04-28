@@ -1,0 +1,34 @@
+#include <gui/screen4_screen/Screen4View.hpp>
+
+#include "BitmapDatabase.hpp"
+
+Screen4View::Screen4View()
+{
+
+}
+
+void Screen4View::setupScreen()
+{
+    Screen4ViewBase::setupScreen();
+}
+
+void Screen4View::tearDownScreen()
+{
+    Screen4ViewBase::tearDownScreen();
+}
+
+void Screen4View::car_config_brake_min_update_value(uint32_t value)
+{
+	img_brake_min_ok.setBitmap(Bitmap(BITMAP_CAR_COFIG_2A_ID));
+//	img_brake_min_ok.invalidate();
+
+	Unicode::snprintf(ta_brake_min_valueBuffer, TA_BRAKE_MIN_VALUE_SIZE, "%d", value);
+//	ta_brake_min_value.resizeToCurrentTextWithAlignment();
+//	ta_brake_min_value.centerX();
+//	c_brake_min.invalidate();
+
+	ta_brake_min_set.setAlpha(255);
+
+	img_brake_max_ok.setBitmap(Bitmap(BITMAP_CAR_COFIG_2B_ID));
+	img_brake_max_ok.invalidate();
+}

@@ -6,6 +6,90 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_RYW9" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">CHECKED</Translation>
+      </Text>
+      <Text Id="__SingleUse_NNJX" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_2P9X" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9EUB" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">SET CORRECTLY</Translation>
+      </Text>
+      <Text Id="__SingleUse_5KB0" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_3ADA" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_A13M" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">SET CORRECTLY</Translation>
+      </Text>
+      <Text Id="__SingleUse_3ADT" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_I3IX" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KMT9" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">CHECKED</Translation>
+      </Text>
+      <Text Id="__SingleUse_EU5E" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">SET CORRECTLY</Translation>
+      </Text>
+      <Text Id="__SingleUse_AP48" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_RZMQ" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_AU7S" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_6MPK" Alignment="Center" TypographyId="Roboto_16">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_W47K" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">SET CORRECTLY</Translation>
+      </Text>
+      <Text Id="__SingleUse_G4DZ" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="__SingleUse_0H0B" Alignment="Center" TypographyId="Roboto_16">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_61SU" Alignment="Center" TypographyId="Roboto_16">
+        <Translation Language="GB">REPEAT&#10;CALIBRATION</Translation>
+      </Text>
+      <Text Id="__SingleUse_5PB4" Alignment="Center" TypographyId="Roboto_16">
+        <Translation Language="GB">DRIVING&#10;MODE</Translation>
+      </Text>
+      <Text Id="__SingleUse_S0LA" Alignment="Center" TypographyId="Roboto_16">
+        <Translation Language="GB">STATIONARY &#10;MODE</Translation>
+      </Text>
+      <Text Id="__SingleUse_OLS4" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">6. THROTTLE REL</Translation>
+      </Text>
+      <Text Id="__SingleUse_HBOM" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">5. THROTTLE MAX</Translation>
+      </Text>
+      <Text Id="__SingleUse_526J" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">4. THROTTLE MIN</Translation>
+      </Text>
+      <Text Id="__SingleUse_NGP2" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">3. BRAKE REL</Translation>
+      </Text>
+      <Text Id="__SingleUse_GLQ0" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">2. BRAKE MAX</Translation>
+      </Text>
+      <Text Id="__SingleUse_39U4" Alignment="Left" TypographyId="Roboto_16">
+        <Translation Language="GB">1. BRAKE MIN</Translation>
+      </Text>
+      <Text Id="__SingleUse_LO7M" Alignment="Left" TypographyId="Roboto_30">
+        <Translation Language="GB">CAR CONFIG</Translation>
+      </Text>
       <Text Id="__SingleUse_MG8Y" Alignment="Left" TypographyId="Roboto_16">
         <Translation Language="GB">AMS</Translation>
       </Text>
@@ -156,7 +240,7 @@
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Roboto_16" Font="Roboto-Bold.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Roboto_16" Font="Roboto-Bold.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789%" />
     <Typography Id="Roboto_30" Font="Roboto-Bold.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789%" />
     <Typography Id="Roboto_48" Font="verdana.ttf" Size="48" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
   </Typographies>

@@ -1,0 +1,10 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:15:6:virtual void Screen4View::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:Screen4View::~Screen4View()	8	static
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:virtual Screen4View::~Screen4View()	8	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:5:1:Screen4View::Screen4View()	8	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:10:6:virtual void Screen4View::setupScreen()	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:20:6:void Screen4View::car_config_brake_min_update_value(uint32_t)	32	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:35:6:void Screen4View::car_config_brake_max_update_value(uint32_t)	32	static

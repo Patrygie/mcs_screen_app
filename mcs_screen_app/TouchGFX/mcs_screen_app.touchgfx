@@ -205,7 +205,7 @@
                 "Name": "ta_diff_title",
                 "X": 21,
                 "Y": 7,
-                "Width": 32,
+                "Width": 33,
                 "Height": 20,
                 "TextId": "__SingleUse_7Q3A",
                 "TextRotation": "0",
@@ -259,7 +259,7 @@
                 "Name": "ta_tsac_title",
                 "X": 17,
                 "Y": 7,
-                "Width": 40,
+                "Width": 41,
                 "Height": 20,
                 "TextId": "__SingleUse_DT6J",
                 "TextRotation": "0",
@@ -488,7 +488,7 @@
                 "Type": "TextArea",
                 "Name": "ta_rinv_title",
                 "X": 22,
-                "Width": 40,
+                "Width": 41,
                 "Height": 20,
                 "TextId": "__SingleUse_DDPI",
                 "TextRotation": "0",
@@ -596,7 +596,7 @@
                 "Type": "TextArea",
                 "Name": "ta_err_title",
                 "X": 28,
-                "Width": 30,
+                "Width": 29,
                 "Height": 20,
                 "TextId": "__SingleUse_KOP2",
                 "TextRotation": "0",
@@ -655,7 +655,7 @@
                 "Name": "ta_hv_value",
                 "X": 108,
                 "Y": 14,
-                "Width": 56,
+                "Width": 57,
                 "Height": 37,
                 "TextId": "__SingleUse_MTZU",
                 "TextRotation": "0",
@@ -686,7 +686,7 @@
                 "Name": "ta_low_value",
                 "X": 14,
                 "Y": 20,
-                "Width": 56,
+                "Width": 57,
                 "Height": 37,
                 "TextId": "__SingleUse_KJRN",
                 "TextRotation": "0",
@@ -1083,6 +1083,548 @@
             "Width": 24,
             "Height": 24,
             "RelativeFilename": "can_status_2b.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Screen4",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "car_config_background",
+            "Width": 480,
+            "Height": 272
+          },
+          {
+            "Type": "Image",
+            "Name": "img_car_config",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "car_cofig_1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_car_config_title",
+            "X": 153,
+            "Width": 174,
+            "Height": 37,
+            "TextId": "__SingleUse_LO7M",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "img_driving_mode",
+            "X": 167,
+            "Y": 221,
+            "Width": 146,
+            "Height": 40,
+            "RelativeFilename": "car_cofig_3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_stationary_mode",
+            "X": 10,
+            "Y": 221,
+            "Width": 146,
+            "Height": 40,
+            "RelativeFilename": "car_cofig_3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "img_repeat_calibration",
+            "X": 324,
+            "Y": 221,
+            "Width": 146,
+            "Height": 40,
+            "RelativeFilename": "car_cofig_3.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_stationary_mode",
+            "X": 33,
+            "Y": 222,
+            "Width": 100,
+            "Height": 38,
+            "TextId": "__SingleUse_S0LA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_driving_mode",
+            "X": 209,
+            "Y": 222,
+            "Width": 62,
+            "Height": 38,
+            "TextId": "__SingleUse_5PB4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ta_repeat_calibration",
+            "X": 346,
+            "Y": 222,
+            "Width": 102,
+            "Height": 38,
+            "TextId": "__SingleUse_61SU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "Container",
+            "Name": "c_brake_min",
+            "X": 10,
+            "Y": 37,
+            "Width": 460,
+            "Height": 23,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_min_set",
+                "X": 307,
+                "Y": 2,
+                "Width": 120,
+                "Height": 20,
+                "TextId": "__SingleUse_W47K",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 0,
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_min_value",
+                "X": 218,
+                "Y": 2,
+                "Width": 6,
+                "Height": 20,
+                "TextId": "__SingleUse_0H0B",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_G4DZ",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "Image",
+                "Name": "img_brake_min_ok",
+                "X": 154,
+                "Y": 3,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2b.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_min_title",
+                "X": 4,
+                "Y": 3,
+                "Width": 102,
+                "Height": 20,
+                "TextId": "__SingleUse_39U4",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "c_brake_max",
+            "X": 10,
+            "Y": 66,
+            "Width": 460,
+            "Height": 23,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "img_brake_max_ok",
+                "X": 154,
+                "Y": 3,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2.png",
+                "Alpha": 0
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_max",
+                "X": 4,
+                "Y": 3,
+                "Width": 107,
+                "Height": 20,
+                "TextId": "__SingleUse_GLQ0",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_max_value",
+                "X": 218,
+                "Y": 2,
+                "Width": 6,
+                "Height": 20,
+                "TextId": "__SingleUse_6MPK",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_AU7S",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_max_set",
+                "X": 307,
+                "Y": 3,
+                "Width": 120,
+                "Height": 20,
+                "TextId": "__SingleUse_EU5E",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 0,
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "c_brake_release",
+            "X": 10,
+            "Y": 96,
+            "Width": 460,
+            "Height": 22,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_release",
+                "X": 4,
+                "Y": 2,
+                "Width": 100,
+                "Height": 20,
+                "TextId": "__SingleUse_NGP2",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Image",
+                "Name": "img_brake_release_ok",
+                "X": 154,
+                "Y": 2,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2.png",
+                "Alpha": 0
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_release_value",
+                "X": 218,
+                "Y": 1,
+                "Width": 6,
+                "Height": 20,
+                "TextId": "__SingleUse_RZMQ",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_AP48",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_brake_release_checked",
+                "X": 332,
+                "Y": 1,
+                "Width": 71,
+                "Height": 20,
+                "TextId": "__SingleUse_KMT9",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 0,
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "c_throttle_min",
+            "X": 10,
+            "Y": 133,
+            "Width": 460,
+            "Height": 20,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "img_throttle_min_ok",
+                "X": 154,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2.png",
+                "Alpha": 0
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_min",
+                "X": 4,
+                "Width": 130,
+                "Height": 20,
+                "TextId": "__SingleUse_526J",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_min_value",
+                "X": 218,
+                "Width": 6,
+                "Height": 20,
+                "TextId": "__SingleUse_I3IX",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_3ADT",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_min_set",
+                "X": 307,
+                "Width": 120,
+                "Height": 20,
+                "TextId": "__SingleUse_A13M",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "c_throttle_max",
+            "X": 10,
+            "Y": 161,
+            "Width": 460,
+            "Height": 20,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "img_throttle_max_ok",
+                "X": 154,
+                "Y": 1,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2.png",
+                "Alpha": 0
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_max",
+                "X": 4,
+                "Width": 136,
+                "Height": 20,
+                "TextId": "__SingleUse_HBOM",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_max_value",
+                "X": 218,
+                "Width": 6,
+                "Height": 20,
+                "TextId": "__SingleUse_3ADA",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_5KB0",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_max_set",
+                "X": 307,
+                "Width": 120,
+                "Height": 20,
+                "TextId": "__SingleUse_9EUB",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "c_throttle_release",
+            "X": 10,
+            "Y": 191,
+            "Width": 460,
+            "Height": 20,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "img_throttle_release_ok",
+                "X": 154,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2.png",
+                "Alpha": 0
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_release",
+                "X": 4,
+                "Width": 128,
+                "Height": 20,
+                "TextId": "__SingleUse_OLS4",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_release_value",
+                "X": 218,
+                "Y": -1,
+                "Width": 6,
+                "Height": 20,
+                "TextId": "__SingleUse_2P9X",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "__SingleUse_NNJX",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ta_throttle_release_checked",
+                "X": 332,
+                "Width": 71,
+                "Height": 20,
+                "TextId": "__SingleUse_RYW9",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
           }
         ],
         "Interactions": []
