@@ -902,3 +902,33 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-04-28 11:54:18.725
 !MESSAGE Indexed 'STM32F746G_DISCO' (164 sources, 381 headers) in 22,9 sec: 31 827 declarations; 128 123 references; 0 unresolved inclusions; 75 syntax errors; 558 unresolved names (0,35%)
+!SESSION 2023-05-04 11:29:42.906 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-04 11:29:57.252
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-04 11:29:57.409
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-04 11:30:11.359
+!MESSAGE Started RMI Server, listening on port 41339
+!SESSION 2023-05-05 10:07:15.405 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-05 10:07:31.516
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-05 10:07:31.662
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-05 10:07:43.549
+!MESSAGE Started RMI Server, listening on port 41337

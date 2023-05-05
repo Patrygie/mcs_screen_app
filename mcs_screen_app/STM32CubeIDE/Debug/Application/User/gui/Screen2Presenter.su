@@ -9,6 +9,12 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:28:18:virtual void ModelListener::can_status_mcs_ams_update_value(uint32_t)	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:30:18:virtual void ModelListener::car_config_brake_min_update_value(uint32_t)	0	static
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:31:18:virtual void ModelListener::car_config_brake_max_update_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:32:18:virtual void ModelListener::car_config_brake_rel_update_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:33:18:virtual void ModelListener::car_config_brake_rel_accepted_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:34:18:virtual void ModelListener::car_config_throttle_min_update_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:35:18:virtual void ModelListener::car_config_throttle_max_update_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:36:18:virtual void ModelListener::car_config_throttle_rel_update_value(uint32_t)	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:37:18:virtual void ModelListener::car_config_throttle_rel_accepted_value(uint32_t)	0	static
 ../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:Screen2Presenter::~Screen2Presenter()	0	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:12:6:virtual void Screen2Presenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual Screen2Presenter::~Screen2Presenter()	8	static

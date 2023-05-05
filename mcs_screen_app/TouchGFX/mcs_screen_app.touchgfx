@@ -1482,6 +1482,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true
               }
             ]
@@ -1552,6 +1553,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true
               }
             ]
@@ -1622,6 +1624,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true
               }
             ]

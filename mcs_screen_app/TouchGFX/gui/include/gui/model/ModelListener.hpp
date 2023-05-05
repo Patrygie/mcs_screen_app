@@ -29,6 +29,12 @@ public:
 
     virtual void car_config_brake_min_update_value(uint32_t value){};
     virtual void car_config_brake_max_update_value(uint32_t value){};
+    virtual void car_config_brake_rel_update_value(uint32_t value){};
+    virtual void car_config_brake_rel_accepted_value(uint32_t value){};
+    virtual void car_config_throttle_min_update_value(uint32_t value){};
+    virtual void car_config_throttle_max_update_value(uint32_t value){};
+    virtual void car_config_throttle_rel_update_value(uint32_t value){};
+    virtual void car_config_throttle_rel_accepted_value(uint32_t value){};
 
     virtual void map_update_value(uint32_t value){};
     virtual void tc_update_value(uint32_t value){};

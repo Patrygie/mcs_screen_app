@@ -83,6 +83,32 @@ void Model::tick()
 			modelListener->car_config_brake_max_update_value(message.value);
 			break;
 
+		case I2C_CAR_CONFIG_BRAKE_REL_VALUE_ID:
+			modelListener->car_config_brake_rel_update_value(message.value);
+			break;
+
+		case I2C_CAR_CONFIG_BRAKE_REL_ACCEPTED:
+			modelListener->car_config_brake_rel_accepted_value(message.value);
+			break;
+
+		case I2C_CAR_CONFIG_THROTTLE_MIN_VALUE_ID:
+			modelListener->car_config_throttle_min_update_value(message.value);
+			break;
+
+		case I2C_CAR_CONFIG_THROTTLE_MAX_VALUE_ID:
+			modelListener->car_config_throttle_max_update_value(message.value);
+			break;
+
+		case I2C_CAR_CONFIG_THROTTLE_REL_VALUE_ID:
+			modelListener->car_config_throttle_rel_update_value(message.value);
+			break;
+
+		case I2C_CAR_CONFIG_THROTTLE_REL_ACCEPTED:
+			modelListener->car_config_throttle_rel_accepted_value(message.value);
+			break;
+
+
+
 		case MSG_ID_SCREEN2:
 			FrontendApplication* App;
 

@@ -170,6 +170,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_throttle_min_set.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ta_throttle_min_set.setLinespacing(0);
     ta_throttle_min_set.setTypedText(touchgfx::TypedText(T___SINGLEUSE_A13M));
+    ta_throttle_min_set.setAlpha(0);
     c_throttle_min.add(ta_throttle_min_set);
 
     add(c_throttle_min);
@@ -199,6 +200,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_throttle_max_set.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ta_throttle_max_set.setLinespacing(0);
     ta_throttle_max_set.setTypedText(touchgfx::TypedText(T___SINGLEUSE_9EUB));
+    ta_throttle_max_set.setAlpha(0);
     c_throttle_max.add(ta_throttle_max_set);
 
     add(c_throttle_max);
@@ -228,6 +230,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_throttle_release_checked.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ta_throttle_release_checked.setLinespacing(0);
     ta_throttle_release_checked.setTypedText(touchgfx::TypedText(T___SINGLEUSE_RYW9));
+    ta_throttle_release_checked.setAlpha(0);
     c_throttle_release.add(ta_throttle_release_checked);
 
     add(c_throttle_release);
