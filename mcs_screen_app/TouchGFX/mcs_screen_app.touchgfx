@@ -205,7 +205,7 @@
                 "Name": "ta_diff_title",
                 "X": 21,
                 "Y": 7,
-                "Width": 33,
+                "Width": 32,
                 "Height": 20,
                 "TextId": "__SingleUse_7Q3A",
                 "TextRotation": "0",
@@ -259,7 +259,7 @@
                 "Name": "ta_tsac_title",
                 "X": 17,
                 "Y": 7,
-                "Width": 41,
+                "Width": 40,
                 "Height": 20,
                 "TextId": "__SingleUse_DT6J",
                 "TextRotation": "0",
@@ -488,7 +488,7 @@
                 "Type": "TextArea",
                 "Name": "ta_rinv_title",
                 "X": 22,
-                "Width": 41,
+                "Width": 40,
                 "Height": 20,
                 "TextId": "__SingleUse_DDPI",
                 "TextRotation": "0",
@@ -596,7 +596,7 @@
                 "Type": "TextArea",
                 "Name": "ta_err_title",
                 "X": 28,
-                "Width": 29,
+                "Width": 30,
                 "Height": 20,
                 "TextId": "__SingleUse_KOP2",
                 "TextRotation": "0",
@@ -655,7 +655,7 @@
                 "Name": "ta_hv_value",
                 "X": 108,
                 "Y": 14,
-                "Width": 57,
+                "Width": 56,
                 "Height": 37,
                 "TextId": "__SingleUse_MTZU",
                 "TextRotation": "0",
@@ -686,7 +686,7 @@
                 "Name": "ta_low_value",
                 "X": 14,
                 "Y": 20,
-                "Width": 57,
+                "Width": 56,
                 "Height": 37,
                 "TextId": "__SingleUse_KJRN",
                 "TextRotation": "0",
@@ -1235,6 +1235,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_G4DZ",
@@ -1317,6 +1318,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_AU7S",
@@ -1391,6 +1393,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_AP48",
@@ -1462,6 +1465,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_3ADT",
@@ -1533,6 +1537,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_5KB0",
@@ -1567,15 +1572,6 @@
             "Height": 20,
             "Components": [
               {
-                "Type": "Image",
-                "Name": "img_throttle_release_ok",
-                "X": 154,
-                "Width": 18,
-                "Height": 18,
-                "RelativeFilename": "car_cofig_2.png",
-                "Alpha": 0
-              },
-              {
                 "Type": "TextArea",
                 "Name": "ta_throttle_release",
                 "X": 4,
@@ -1591,6 +1587,15 @@
                 "AutoSize": true
               },
               {
+                "Type": "Image",
+                "Name": "img_throttle_release_ok",
+                "X": 154,
+                "Width": 18,
+                "Height": 18,
+                "RelativeFilename": "car_cofig_2.png",
+                "Alpha": 0
+              },
+              {
                 "Type": "TextArea",
                 "Name": "ta_throttle_release_value",
                 "X": 218,
@@ -1604,6 +1609,7 @@
                   "Green": 255,
                   "Blue": 255
                 },
+                "Alpha": 0,
                 "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_NNJX",
@@ -1615,6 +1621,7 @@
                 "Type": "TextArea",
                 "Name": "ta_throttle_release_checked",
                 "X": 332,
+                "Y": -1,
                 "Width": 71,
                 "Height": 20,
                 "TextId": "__SingleUse_RYW9",

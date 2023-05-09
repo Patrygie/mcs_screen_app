@@ -71,6 +71,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_brake_min_value.setWildcard(ta_brake_min_valueBuffer);
     ta_brake_min_value.resizeToCurrentText();
     ta_brake_min_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_0H0B));
+    ta_brake_min_value.setAlpha(0);
     c_brake_min.add(ta_brake_min_value);
 
     img_brake_min_ok.setXY(154, 3);
@@ -104,6 +105,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_brake_max_value.setWildcard(ta_brake_max_valueBuffer);
     ta_brake_max_value.resizeToCurrentText();
     ta_brake_max_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_6MPK));
+    ta_brake_max_value.setAlpha(0);
     c_brake_max.add(ta_brake_max_value);
 
     ta_brake_max_set.setXY(307, 3);
@@ -134,6 +136,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_brake_release_value.setWildcard(ta_brake_release_valueBuffer);
     ta_brake_release_value.resizeToCurrentText();
     ta_brake_release_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_RZMQ));
+    ta_brake_release_value.setAlpha(0);
     c_brake_release.add(ta_brake_release_value);
 
     ta_brake_release_checked.setXY(332, 1);
@@ -164,6 +167,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_throttle_min_value.setWildcard(ta_throttle_min_valueBuffer);
     ta_throttle_min_value.resizeToCurrentText();
     ta_throttle_min_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_I3IX));
+    ta_throttle_min_value.setAlpha(0);
     c_throttle_min.add(ta_throttle_min_value);
 
     ta_throttle_min_set.setXY(307, 0);
@@ -194,6 +198,7 @@ Screen4ViewBase::Screen4ViewBase()
     ta_throttle_max_value.setWildcard(ta_throttle_max_valueBuffer);
     ta_throttle_max_value.resizeToCurrentText();
     ta_throttle_max_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_3ADA));
+    ta_throttle_max_value.setAlpha(0);
     c_throttle_max.add(ta_throttle_max_value);
 
     ta_throttle_max_set.setXY(307, 0);
@@ -206,16 +211,16 @@ Screen4ViewBase::Screen4ViewBase()
     add(c_throttle_max);
 
     c_throttle_release.setPosition(10, 191, 460, 20);
-    img_throttle_release_ok.setXY(154, 0);
-    img_throttle_release_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAR_COFIG_2_ID));
-    img_throttle_release_ok.setAlpha(0);
-    c_throttle_release.add(img_throttle_release_ok);
-
     ta_throttle_release.setXY(4, 0);
     ta_throttle_release.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ta_throttle_release.setLinespacing(0);
     ta_throttle_release.setTypedText(touchgfx::TypedText(T___SINGLEUSE_OLS4));
     c_throttle_release.add(ta_throttle_release);
+
+    img_throttle_release_ok.setXY(154, 0);
+    img_throttle_release_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAR_COFIG_2_ID));
+    img_throttle_release_ok.setAlpha(0);
+    c_throttle_release.add(img_throttle_release_ok);
 
     ta_throttle_release_value.setXY(218, -1);
     ta_throttle_release_value.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -224,9 +229,10 @@ Screen4ViewBase::Screen4ViewBase()
     ta_throttle_release_value.setWildcard(ta_throttle_release_valueBuffer);
     ta_throttle_release_value.resizeToCurrentText();
     ta_throttle_release_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_2P9X));
+    ta_throttle_release_value.setAlpha(0);
     c_throttle_release.add(ta_throttle_release_value);
 
-    ta_throttle_release_checked.setXY(332, 0);
+    ta_throttle_release_checked.setXY(332, -1);
     ta_throttle_release_checked.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ta_throttle_release_checked.setLinespacing(0);
     ta_throttle_release_checked.setTypedText(touchgfx::TypedText(T___SINGLEUSE_RYW9));

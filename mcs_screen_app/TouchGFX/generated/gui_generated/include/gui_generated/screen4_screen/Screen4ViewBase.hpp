@@ -64,8 +64,8 @@ protected:
     touchgfx::TextAreaWithOneWildcard ta_throttle_max_value;
     touchgfx::TextArea ta_throttle_max_set;
     touchgfx::Container c_throttle_release;
-    touchgfx::Image img_throttle_release_ok;
     touchgfx::TextArea ta_throttle_release;
+    touchgfx::Image img_throttle_release_ok;
     touchgfx::TextAreaWithOneWildcard ta_throttle_release_value;
     touchgfx::TextArea ta_throttle_release_checked;
 

@@ -932,3 +932,85 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-05 10:07:43.549
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-05-05 14:17:48.077 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-05 14:17:58.520
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-05 14:17:58.600
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-05 14:18:04.754
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY org.eclipse.cdt.ui 4 4 2023-05-05 15:33:48.949
+!MESSAGE Error
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 897 > 896
+	at org.eclipse.jface.text.ListLineTracker.getLineInformationOfOffset(ListLineTracker.java:160)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformationOfOffset(AbstractLineTracker.java:143)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformationOfOffset(AbstractDocument.java:887)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformationOfOffset(SynchronizableDocument.java:298)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.computeSourceEnd(CSourceHover.java:629)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.computeSourceForName(CSourceHover.java:420)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.computeSourceForBinding(CSourceHover.java:312)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.runOnAST(CSourceHover.java:215)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:231)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$1.run(CSourceHover.java:873)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.ui 4 4 2023-05-05 15:33:57.700
+!MESSAGE Error
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 897 > 896
+	at org.eclipse.jface.text.ListLineTracker.getLineInformationOfOffset(ListLineTracker.java:160)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformationOfOffset(AbstractLineTracker.java:143)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformationOfOffset(AbstractDocument.java:887)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformationOfOffset(SynchronizableDocument.java:298)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.computeSourceEnd(CSourceHover.java:629)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.computeSourceForName(CSourceHover.java:420)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.computeSourceForBinding(CSourceHover.java:312)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$ComputeSourceRunnable.runOnAST(CSourceHover.java:215)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:231)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:338)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover$1.run(CSourceHover.java:873)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-06 14:06:14.839
+!MESSAGE Indexed 'STM32F746G_DISCO' (163 sources, 381 headers) in 10,6 sec: 31 928 declarations; 128 149 references; 0 unresolved inclusions; 75 syntax errors; 558 unresolved names (0,35%)
+!SESSION 2023-05-08 14:36:19.556 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-08 14:36:32.094
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-08 14:36:32.147
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-08 14:36:38.067
+!MESSAGE Started RMI Server, listening on port 41339
+!SESSION 2023-05-09 11:51:18.989 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-09 11:51:34.706
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-09 11:51:34.866
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-09 11:51:50.726
+!MESSAGE Started RMI Server, listening on port 41337

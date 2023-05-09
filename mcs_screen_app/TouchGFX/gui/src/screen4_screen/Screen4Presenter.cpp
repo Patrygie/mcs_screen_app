@@ -58,3 +58,23 @@ void Screen4Presenter::car_config_throttle_rel_accepted_value(uint32_t value)
 {
 	view.car_config_throttle_rel_accepted_value(value);
 }
+
+void Screen4Presenter::car_config_select_stationary_mode_value(uint32_t value)
+{
+	view.car_config_select_stationary_mode_value(value);
+}
+
+void Screen4Presenter::car_config_select_driving_mode_value(uint32_t value)
+{
+	view.car_config_select_driving_mode_value(value);
+}
+
+void Screen4Presenter::car_config_select_repeat_calibration_value(uint32_t value)
+{
+	view.car_config_select_repeat_calibration_value(value);
+}
+
+void Screen4Presenter::car_config_dashboard_reset_value(uint32_t value)
+{
+	view.car_config_dashboard_reset_value(value);
+}

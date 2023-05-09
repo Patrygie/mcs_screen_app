@@ -35,6 +35,10 @@ public:
     void car_config_throttle_max_update_value(uint32_t value) override;
     void car_config_throttle_rel_update_value(uint32_t value) override;
     void car_config_throttle_rel_accepted_value(uint32_t value) override;
+    void car_config_select_stationary_mode_value(uint32_t value) override;
+    void car_config_select_driving_mode_value(uint32_t value) override;
+    void car_config_select_repeat_calibration_value(uint32_t value) override;
+    void car_config_dashboard_reset_value(uint32_t value) override;
 
 private:
     Screen4Presenter();
