@@ -38,9 +38,22 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 
+typedef struct
+{
+	uint8_t ID;
+	uint32_t value;
+}Message_t;
+
+enum I2C_MSG_FRAME
+{
+	I2C_MSG_ID = 	0u,
+	I2C_MSG_VALUE1 = 1u,
+	I2C_MSG_VALUE2 = 2u
+};
+
 enum I2C_MSG_ID
 {
-	I2C_CHANGE_SCRN_TO_1 = 		0x05u,
+	I2C_DASHBOARD_GO_TO_NEXT_PAGE = 		0x05u,
 
 	I2C_CAN_STATUS_SCRN_OK_ID = 			0x0Au,
 	I2C_CAN_STATUS_MAIN_OK_ID = 			0x0Bu,
@@ -52,7 +65,7 @@ enum I2C_MSG_ID
 	I2C_CAN_STATUS_R_MOTOR_DRIVER_OK_ID = 	0x11u,
 	I2C_CAN_STATUS_AMS_OK_ID = 				0x12u,
 
-	I2C_PLUS_ID = 0x1Eu,
+//	I2C_PLUS_ID = 0x1Eu,
 
 	MSG_ID_SCREEN2 = 0x01u,
 	MSG_ID_SCREEN3 = 0x03u,
@@ -89,11 +102,6 @@ enum I2C_MSG_ID
 	I2C_DRIVE_TS_ID = 	0x4Au
 };
 
-typedef struct
-{
-	uint8_t ID;
-	uint32_t value;
-}Message_t;
 
 /* USER CODE END ET */
 
