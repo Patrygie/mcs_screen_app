@@ -17,8 +17,8 @@ Model::Model() : modelListener(0)
 void Model::tick()
 {
 	Message_t message;
-
-	if(osMessageQueueGet(queue_model_handle, &message, NULL, 0U) == osOK)
+	/*było if zamiast while*/
+	while(osMessageQueueGet(queue_model_handle, &message, NULL, 0U) == osOK)
 	{
 		switch(message.ID)
 		{
