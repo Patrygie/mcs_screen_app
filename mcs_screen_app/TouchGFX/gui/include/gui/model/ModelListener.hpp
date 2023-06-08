@@ -40,6 +40,8 @@ public:
     virtual void car_config_select_repeat_calibration_value(uint32_t value){};
     virtual void car_config_dashboard_reset_value(uint32_t value){};
 
+    virtual void p2d_update_value(uint32_t value){};
+    virtual void ts_update_value(uint32_t value){};
     virtual void map_update_value(uint32_t value){};
     virtual void tc_update_value(uint32_t value){};
     virtual void speed_update_value(uint32_t value){};
@@ -53,9 +55,7 @@ public:
     virtual void err_update_value(uint32_t value){};
     virtual void hv_update_value(uint32_t value){};
     virtual void low_update_value(uint32_t value){};
-    virtual void p2d_update_value(uint32_t value){};
-    virtual void ts_update_value(uint32_t value){};
-    virtual void gas_update_value(uint32_t value){};
+    virtual void drive_throttle_update_value(uint32_t value){};
     virtual void drive_select_map_update_value(uint32_t){};
     virtual void drive_select_tc_update_value(uint32_t){};
     virtual void drive_select_diff_update_value(uint32_t){};

@@ -12,6 +12,8 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 
+    void p2d_update_value(uint32_t value);
+    void ts_update_value(uint32_t value);
     void map_update_value(uint32_t value);	//dodane
     void tc_update_value(uint32_t value);
     void speed_update_value(uint32_t value);
@@ -25,9 +27,7 @@ public:
     void err_update_value(uint32_t value);
     void hv_update_value(uint32_t value);
     void low_update_value(uint32_t value);
-    void p2d_update_value(uint32_t value);
-    void ts_update_value(uint32_t value);
-    void gas_update_value(uint32_t value);
+    void drive_throttle_update_value(uint32_t value);
     void drive_select_map_update_value(uint32_t value);
     void drive_select_tc_update_value(uint32_t value);
     void drive_select_diff_update_value(uint32_t value);

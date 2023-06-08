@@ -94,9 +94,9 @@ void Screen2Presenter::ts_update_value(uint32_t value)
 	view.ts_update_value(value);
 }
 
-void Screen2Presenter::gas_update_value(uint32_t value)
+void Screen2Presenter::drive_throttle_update_value(uint32_t value)
 {
-	view.gas_update_value(value);
+	view.drive_throttle_update_value(value);
 }
 
 void Screen2Presenter::drive_select_map_update_value(uint32_t value)

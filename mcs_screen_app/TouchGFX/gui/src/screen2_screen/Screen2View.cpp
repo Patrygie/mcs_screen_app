@@ -160,7 +160,7 @@ void Screen2View::ts_update_value(uint32_t value)
 	}
 }
 
-void Screen2View::gas_update_value(uint32_t value)
+void Screen2View::drive_throttle_update_value(uint32_t value)
 {
 	ip_gas_visual.setValue(value);
 	ip_gas_visual.invalidate();

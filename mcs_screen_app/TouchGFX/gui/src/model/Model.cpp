@@ -13,7 +13,9 @@ Model::Model() : modelListener(0)
 {
 
 }
-
+FrontendApplication* App3;
+FrontendApplication* App4;
+FrontendApplication* App;
 void Model::tick()
 {
 	Message_t message;
@@ -23,7 +25,7 @@ void Model::tick()
 		switch(message.ID)
 		{
 		case MSG_ID_SCREEN3:
-			FrontendApplication* App3;
+//			FrontendApplication* App3;
 			App3 = static_cast<FrontendApplication*>(Application::getInstance());
 			App3->goto_screen3();
 			break;
@@ -57,7 +59,7 @@ void Model::tick()
 			break;
 
 		case MSG_ID_SCREEN4:
-			FrontendApplication* App4;
+//			FrontendApplication* App4;
 			App4 = static_cast<FrontendApplication*>(Application::getInstance());
 			App4->goto_screen4();
 			break;
@@ -102,19 +104,17 @@ void Model::tick()
 
 
 		case MSG_ID_SCREEN2:
-			FrontendApplication* App;
+//			FrontendApplication* App;
 			App = static_cast<FrontendApplication*>(Application::getInstance());
 			App->goto_screen2();
 			break;
 
-
-
-		case MSG_ID_GAS:
-			modelListener->gas_update_value(message.value);
+		case I2C_DRIVE_P2D_ID:
+			modelListener->p2d_update_value(message.value);
 			break;
-
-
-
+		case I2C_DRIVE_TS_ID:
+			modelListener->ts_update_value(message.value);
+			break;
 		case I2C_DRIVE_MAP_ID:
 			modelListener->map_update_value(message.value);
 			break;
@@ -154,11 +154,8 @@ void Model::tick()
 		case I2C_DRIVE_LOW_ID:
 			modelListener->low_update_value(message.value);
 			break;
-		case I2C_DRIVE_P2D_ID:
-			modelListener->p2d_update_value(message.value);
-			break;
-		case I2C_DRIVE_TS_ID:
-			modelListener->ts_update_value(message.value);
+		case I2C_DRIVE_THROTTLE_ID:
+			modelListener->drive_throttle_update_value(message.value);
 			break;
 		case I2C_DRIVE_SELECT_MAP_ID:
 			modelListener->drive_select_map_update_value(message.value);

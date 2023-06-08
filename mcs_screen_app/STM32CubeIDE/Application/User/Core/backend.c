@@ -25,7 +25,7 @@ void backend(void* argument)
 
 //	uint8_t wartosc_pokazowa = 0;
 
-	uint8_t screen_page = 0;
+	uint8_t screen_page = 1;
 	uint8_t test_value = 0;
 
 	osDelay(1000 / portTICK_PERIOD_MS);
@@ -56,26 +56,24 @@ void backend(void* argument)
 
 ////////////////////////////////////////////////
 
-		if(screen_page == 0)
+		if(screen_page == 1)
 		{
 			while(I2cData2B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			{
 				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK);
-
-				if(I2cData2B[I2C_MSG_ID] == I2C_DASHBOARD_GO_TO_NEXT_PAGE)
-				{
-					Message_t message = {
-							.ID = MSG_ID_SCREEN3
-					};
-					osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
-				}
 			}
+
 			screen_page++;
 			I2cData2B[I2C_MSG_ID] = 0;
 		}
 
-		else if(screen_page == 1)
+		else if(screen_page == 2)
 		{
+			Message_t message = {
+					.ID = MSG_ID_SCREEN3
+			};
+			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+
 //			while(I2cData2B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			while(I2cData8B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			{
@@ -104,7 +102,7 @@ void backend(void* argument)
 			screen_page++;
 		}
 
-		else if(screen_page == 2)
+		else if(screen_page == 3)
 		{
 			Message_t message = {
 						.ID = MSG_ID_SCREEN4
@@ -137,31 +135,40 @@ void backend(void* argument)
 			screen_page++;
 		}
 
-		else if(screen_page == 3)
-		{
-			Message_t message = {
-						.ID = MSG_ID_SCREEN2
-			};
-			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
-			screen_page++;
-		}
+//		else if(screen_page == 4)
+//		{
+//			Message_t message = {
+//						.ID = MSG_ID_SCREEN2
+//			};
+//			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+//			screen_page++;
+//		}
 
 		//było else if
-		while(screen_page == 4)
+		else if(screen_page == 4)
 		{
-			//było if
-			while(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
-			{
-				for(uint8_t i = 0; i < 4; i++)
-				{
-					Message_t message = {
-								.ID = I2cData8B[I2C_MSG_ID+2*i],
-								.value = I2cData8B[I2C_MSG_VALUE1+2*i]
-					};
-					osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
-				}
-			}
+			Message_t message = {
+							.ID = MSG_ID_SCREEN2
+			};
+			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 
+			while(I2cData8B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
+			{
+			//było while
+				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
+				{
+					for(uint8_t i = 0; i < 4; i++)
+					{
+						Message_t message = {
+									.ID = I2cData8B[I2C_MSG_ID+2*i],
+									.value = I2cData8B[I2C_MSG_VALUE1+2*i]
+						};
+						osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+					}
+				}
+
+			}
+			screen_page = 2;
 //			if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK); to było git
 //					if(HAL_I2C_Slave_Receive_IT(&hi2c1, I2cData2B, I2cDataSize2B) == HAL_OK);
 

@@ -20,7 +20,7 @@ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Scree
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:120:6:void Screen2View::err_update_value(uint32_t)	16	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:137:6:void Screen2View::low_update_value(uint32_t)	16	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:128:6:void Screen2View::hv_update_value(uint32_t)	24	static
-D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:163:6:void Screen2View::gas_update_value(uint32_t)	16	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:163:6:void Screen2View::drive_throttle_update_value(uint32_t)	16	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:145:6:void Screen2View::p2d_update_value(uint32_t)	24	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:154:6:void Screen2View::ts_update_value(uint32_t)	24	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:169:6:void Screen2View::drive_select_map_update_value(uint32_t)	32	static
