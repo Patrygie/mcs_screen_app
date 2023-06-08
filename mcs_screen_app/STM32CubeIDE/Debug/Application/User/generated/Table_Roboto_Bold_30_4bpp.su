@@ -1,2 +1,2 @@
-D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_30_4bpp.cpp:49:184:void __tcf_0()	0	static
-D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_30_4bpp.cpp:47:26:touchgfx::GeneratedFont& getFont_Roboto_Bold_30_4bpp()	72	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_30_4bpp.cpp:52:184:void __tcf_0()	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/generated/fonts/src/Table_Roboto_Bold_30_4bpp.cpp:50:26:touchgfx::GeneratedFont& getFont_Roboto_Bold_30_4bpp()	72	static

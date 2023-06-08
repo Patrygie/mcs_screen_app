@@ -160,6 +160,18 @@ void Model::tick()
 		case I2C_DRIVE_TS_ID:
 			modelListener->ts_update_value(message.value);
 			break;
+		case I2C_DRIVE_SELECT_MAP_ID:
+			modelListener->drive_select_map_update_value(message.value);
+			break;
+		case I2C_DRIVE_SELECT_TC_ID:
+			modelListener->drive_select_tc_update_value(message.value);
+			break;
+		case I2C_DRIVE_SELECT_DIFF_ID:
+			modelListener->drive_select_diff_update_value(message.value);
+			break;
+		case I2C_DRIVE_SELECT_TSAC_ID:
+			modelListener->drive_select_tsac_update_value(message.value);
+			break;
 		}
 	}
 }

@@ -16,7 +16,7 @@ const osMessageQueueAttr_t queue_model_attr = {.name = "queue_model"};
 
 void backend(void* argument)
 {
-	queue_model_handle = osMessageQueueNew(8, sizeof(Message_t), &queue_model_attr);
+	queue_model_handle = osMessageQueueNew(12, sizeof(Message_t), &queue_model_attr); //było 8
 
 	uint8_t I2cData2B[2];
 	uint16_t I2cDataSize2B = 2;
@@ -146,9 +146,11 @@ void backend(void* argument)
 			screen_page++;
 		}
 
-		else if(screen_page == 4)
+		//było else if
+		while(screen_page == 4)
 		{
-			if(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
+			//było if
+			while(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
 			{
 				for(uint8_t i = 0; i < 4; i++)
 				{
@@ -159,6 +161,7 @@ void backend(void* argument)
 					osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 				}
 			}
+
 //			if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK); to było git
 //					if(HAL_I2C_Slave_Receive_IT(&hi2c1, I2cData2B, I2cDataSize2B) == HAL_OK);
 

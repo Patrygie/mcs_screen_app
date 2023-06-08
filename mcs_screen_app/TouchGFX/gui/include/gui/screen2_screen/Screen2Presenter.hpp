@@ -43,6 +43,10 @@ public:
     void p2d_update_value(uint32_t value) override;
     void ts_update_value(uint32_t value) override;
     void gas_update_value(uint32_t value) override;
+    void drive_select_map_update_value(uint32_t value) override;
+    void drive_select_tc_update_value(uint32_t value) override;
+    void drive_select_diff_update_value(uint32_t value) override;
+    void drive_select_tsac_update_value(uint32_t value) override;
 
 private:
     Screen2Presenter();

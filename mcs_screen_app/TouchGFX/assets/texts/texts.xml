@@ -241,7 +241,7 @@
   </Texts>
   <Typographies>
     <Typography Id="Roboto_16" Font="Roboto-Bold.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789%" />
-    <Typography Id="Roboto_30" Font="Roboto-Bold.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789%" />
+    <Typography Id="Roboto_30" Font="Roboto-Bold.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789%SPAXENC" />
     <Typography Id="Roboto_48" Font="verdana.ttf" Size="48" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
   </Typographies>
 </TextDatabase>

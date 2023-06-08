@@ -38,5 +38,9 @@ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Scree
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:87:6:virtual void Screen2Presenter::p2d_update_value(uint32_t)	0	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:92:6:virtual void Screen2Presenter::ts_update_value(uint32_t)	0	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:97:6:virtual void Screen2Presenter::gas_update_value(uint32_t)	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:102:6:virtual void Screen2Presenter::drive_select_map_update_value(uint32_t)	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:107:6:virtual void Screen2Presenter::drive_select_tc_update_value(uint32_t)	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:112:6:virtual void Screen2Presenter::drive_select_diff_update_value(uint32_t)	0	static
+D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:117:6:virtual void Screen2Presenter::drive_select_tsac_update_value(uint32_t)	0	static
 ../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:28:13:virtual void* Screen2Presenter::_ZThn4_N16Screen2PresenterD1Ev()	0	static
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp:6:1:Screen2Presenter::Screen2Presenter(Screen2View&)	8	static

@@ -56,6 +56,10 @@ public:
     virtual void p2d_update_value(uint32_t value){};
     virtual void ts_update_value(uint32_t value){};
     virtual void gas_update_value(uint32_t value){};
+    virtual void drive_select_map_update_value(uint32_t){};
+    virtual void drive_select_tc_update_value(uint32_t){};
+    virtual void drive_select_diff_update_value(uint32_t){};
+    virtual void drive_select_tsac_update_value(uint32_t){};
 
 protected:
     Model* model;

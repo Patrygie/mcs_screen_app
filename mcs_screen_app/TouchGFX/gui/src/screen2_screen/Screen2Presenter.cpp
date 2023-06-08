@@ -98,3 +98,23 @@ void Screen2Presenter::gas_update_value(uint32_t value)
 {
 	view.gas_update_value(value);
 }
+
+void Screen2Presenter::drive_select_map_update_value(uint32_t value)
+{
+	view.drive_select_map_update_value(value);
+}
+
+void Screen2Presenter::drive_select_tc_update_value(uint32_t value)
+{
+	view.drive_select_tc_update_value(value);
+}
+
+void Screen2Presenter::drive_select_diff_update_value(uint32_t value)
+{
+	view.drive_select_diff_update_value(value);
+}
+
+void Screen2Presenter::drive_select_tsac_update_value(uint32_t value)
+{
+	view.drive_select_tsac_update_value(value);
+}

@@ -17,61 +17,38 @@ void Screen2View::tearDownScreen()
     Screen2ViewBase::tearDownScreen();
 }
 
-void Screen2View::map_update_value(uint32_t value)		//funkcja dodana
+void Screen2View::map_update_value(uint32_t value)
 {
-	Unicode::snprintf(ta_map_valueBuffer, TA_MAP_VALUE_SIZE, "%d", value);
+	ta_map_value.invalidate();
 
-	//Unicode::snprintf(ta_tc_valueBuffer, TA_TC_VALUE_SIZE, "%d", value); //TA_TC VALUE
+	switch(value)
+	{
+	case 1:
+		Unicode::snprintf(ta_map_valueBuffer, TA_MAP_VALUE_SIZE, "SP");
+		break;
+	case 2:
+		Unicode::snprintf(ta_map_valueBuffer, TA_MAP_VALUE_SIZE, "AX");
+		break;
+	case 3:
+		Unicode::snprintf(ta_map_valueBuffer, TA_MAP_VALUE_SIZE, "EN");
+		break;
+	case 4:
+		Unicode::snprintf(ta_map_valueBuffer, TA_MAP_VALUE_SIZE, "ACC");
+		break;
+	}
 
 	ta_map_value.resizeToCurrentTextWithAlignment();
-
-	//ta_tc_value.resizeToCurrentTextWithAlignment(); //TA_TC VALUE
-
 	ta_map_value.centerX();
-
-	//ta_tc_value.centerX(); //TA_TC VALUE
-
-	c_map.invalidate();
-
-	//c_tc.invalidate(); //TA_TC VALUE
-
-	if(value >= 30 && value < 80)
-	{
-		img_map.setBitmap(Bitmap(BITMAP_DRIVE_1_BLUE_ID));
-		img_map.invalidate();
-
-		//img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_YELLOW_ID));	//TA_TC VALUE
-		//img_tc.invalidate();	//TA_TC VALUE
-	}
-
-	else
-	{
-		img_map.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
-		img_map.invalidate();
-
-		//img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
-		//img_tc.invalidate();
-	}
+	ta_map_value.invalidate();
 }
 
 void Screen2View::tc_update_value(uint32_t value)
 {
+	ta_tc_value.invalidate();
 	Unicode::snprintf(ta_tc_valueBuffer, TA_TC_VALUE_SIZE, "%d", value);
 	ta_tc_value.resizeToCurrentTextWithAlignment();
 	ta_tc_value.centerX();
-	c_tc.invalidate();
-
-	if(value >= 30 && value < 80)
-	{
-		img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_YELLOW_ID));
-		img_tc.invalidate();
-	}
-
-	else /*if(value < 30 && value >= 80)*/
-	{
-		img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
-		img_tc.invalidate();
-	}
+	ta_tc_value.invalidate();
 }
 
 void Screen2View::speed_update_value(uint32_t value)
@@ -84,42 +61,20 @@ void Screen2View::speed_update_value(uint32_t value)
 
 void Screen2View::diff_update_value(uint32_t value)
 {
+	ta_diff_value.invalidate();
 	Unicode::snprintf(ta_diff_valueBuffer, TA_DIFF_VALUE_SIZE, "%d", value);
 	ta_diff_value.resizeToCurrentTextWithAlignment();
 	ta_diff_value.centerX();
-	c_diff.invalidate();
-
-	if(value >= 30 && value < 80)
-	{
-		img_diff.setBitmap(Bitmap(BITMAP_DRIVE_1_YELLOW_ID));
-		img_diff.invalidate();
-	}
-
-	else
-	{
-		img_diff.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
-		img_diff.invalidate();
-	}
+	ta_diff_value.invalidate();
 }
 
 void Screen2View::tsac_update_value(uint32_t value)
 {
+	ta_tsac_value.invalidate();
 	Unicode::snprintf(ta_tsac_valueBuffer, TA_TSAC_VALUE_SIZE, "%d", value);
 	ta_tsac_value.resizeToCurrentTextWithAlignment();
 	ta_tsac_value.centerX();
-	c_tsac.invalidate();
-
-	if(value >= 30 && value < 80)
-	{
-		img_tsac.setBitmap(Bitmap(BITMAP_DRIVE_1_YELLOW_ID));
-		img_tsac.invalidate();
-	}
-
-	else
-	{
-		img_tsac.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
-		img_tsac.invalidate();
-	}
+	ta_tsac_value.invalidate();
 }
 
 void Screen2View::leng_update_value(uint32_t value)
@@ -177,11 +132,6 @@ void Screen2View::hv_update_value(uint32_t value)
 
 	ip_hv_visual.setValue(value / 10);
 	ip_hv_visual.invalidate();
-
-//	Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE, "%d", value);
-//	ta_hv_value.resizeToCurrentTextWithAlignment();
-//	ta_hv_value.centerX();
-//	c_hv.invalidate();
 }
 
 void Screen2View::low_update_value(uint32_t value)
@@ -194,7 +144,6 @@ void Screen2View::low_update_value(uint32_t value)
 
 void Screen2View::p2d_update_value(uint32_t value)
 {
-
 	if(value == 1)
 	{
 		img_p2d.setBitmap(Bitmap(BITMAP_DRIVE_10A_GREEN_ID));
@@ -204,7 +153,6 @@ void Screen2View::p2d_update_value(uint32_t value)
 
 void Screen2View::ts_update_value(uint32_t value)
 {
-
 	if(value == 1)
 	{
 		img_ts.setBitmap(Bitmap(BITMAP_DRIVE_10A_GREEN_ID));
@@ -218,3 +166,74 @@ void Screen2View::gas_update_value(uint32_t value)
 	ip_gas_visual.invalidate();
 }
 
+void Screen2View::drive_select_map_update_value(uint32_t value)
+{
+	if(value == 1)
+	{
+		img_map.setBitmap(Bitmap(BITMAP_DRIVE_1_BLUE_ID));
+		img_map.invalidate();
+		img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_tc.invalidate();
+		img_tsac.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_tsac.invalidate();
+	}
+	else
+	{
+		img_map.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_map.invalidate();
+	}
+}
+
+void Screen2View::drive_select_tc_update_value(uint32_t value)
+{
+	if(value == 1)
+	{
+		img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_BLUE_ID));
+		img_tc.invalidate();
+		img_map.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_map.invalidate();
+		img_diff.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_diff.invalidate();
+	}
+	else
+	{
+		img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_tc.invalidate();
+	}
+}
+
+void Screen2View::drive_select_diff_update_value(uint32_t value)
+{
+	if(value == 1)
+	{
+		img_diff.setBitmap(Bitmap(BITMAP_DRIVE_1_BLUE_ID));
+		img_diff.invalidate();
+		img_tc.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_tc.invalidate();
+		img_tsac.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_tsac.invalidate();
+	}
+	else
+	{
+		img_diff.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_diff.invalidate();
+	}
+}
+
+void Screen2View::drive_select_tsac_update_value(uint32_t value)
+{
+	if(value == 1)
+	{
+		img_tsac.setBitmap(Bitmap(BITMAP_DRIVE_1_BLUE_ID));
+		img_tsac.invalidate();
+		img_diff.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_diff.invalidate();
+		img_map.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_map.invalidate();
+	}
+	else
+	{
+		img_tsac.setBitmap(Bitmap(BITMAP_DRIVE_1_ID));
+		img_tsac.invalidate();
+	}
+}
