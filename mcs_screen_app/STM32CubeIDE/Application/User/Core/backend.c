@@ -22,11 +22,12 @@ void backend(void* argument)
 	uint16_t I2cDataSize2B = 2;
 	uint8_t I2cData8B[8];
 	uint16_t I2cDataSize8B = 8;
-
-//	uint8_t wartosc_pokazowa = 0;
+	uint8_t I2cData3B[3] = {0, 0, 0};
+	uint16_t I2cDataSize3B = 3;
+	uint16_t Value16Bit = 0;
 
 	uint8_t screen_page = 1;
-	uint8_t test_value = 0;
+	uint8_t page_lock = 0;
 
 	osDelay(1000 / portTICK_PERIOD_MS);
 
@@ -74,7 +75,6 @@ void backend(void* argument)
 			};
 			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 
-//			while(I2cData2B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			while(I2cData8B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			{
 				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
@@ -88,30 +88,18 @@ void backend(void* argument)
 						osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 					}
 				}
-
-//				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK);
-//
-//				Message_t message = {
-//							.ID = I2cData2B[I2C_MSG_ID],
-//							.value = I2cData2B[I2C_MSG_VALUE1]
-//						};
-//				osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 			}
 			I2cData8B[I2C_MSG_ID] = 0;
-//			I2cData2B[I2C_MSG_ID] = 0;
 			screen_page++;
 		}
 
 		else if(screen_page == 3)
 		{
+
 			Message_t message = {
 						.ID = MSG_ID_SCREEN4
 			};
 			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
-
-			uint8_t I2cData3B[3];
-			uint16_t Value16Bit = 0;
-			uint16_t I2cDataSize3B = 3;
 
 			while(I2cData3B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			{
@@ -120,31 +108,24 @@ void backend(void* argument)
 				I2cData3B[I2C_MSG_VALUE1] = 0;
 				I2cData3B[I2C_MSG_VALUE2] = 0;
 
-				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData3B, I2cDataSize3B, HAL_MAX_DELAY) == HAL_OK);
+				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData3B, I2cDataSize3B, HAL_MAX_DELAY) == HAL_OK)
+				{
+					Value16Bit |= (I2cData3B[I2C_MSG_VALUE2] << 8) | (I2cData3B[I2C_MSG_VALUE1]);
 
-				Value16Bit |= (I2cData3B[I2C_MSG_VALUE2] << 8) | (I2cData3B[I2C_MSG_VALUE1]);
-
-				Message_t message = {
-							.ID = I2cData3B[I2C_MSG_ID],
-							.value = Value16Bit
-//							.value = I2cData2B[I2C_MSG_VALUE1]
+					Message_t message = {
+								.ID = I2cData3B[I2C_MSG_ID],
+								.value = Value16Bit
 						};
-				osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+					osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+				}
 			}
-
+			Value16Bit = 0;
+			I2cData3B[I2C_MSG_ID] = 0;
+			I2cData3B[I2C_MSG_VALUE1] = 0;
+			I2cData3B[I2C_MSG_VALUE2] = 0;
 			screen_page++;
 		}
 
-//		else if(screen_page == 4)
-//		{
-//			Message_t message = {
-//						.ID = MSG_ID_SCREEN2
-//			};
-//			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
-//			screen_page++;
-//		}
-
-		//było else if
 		else if(screen_page == 4)
 		{
 			Message_t message = {
@@ -169,31 +150,15 @@ void backend(void* argument)
 
 			}
 			screen_page = 2;
-//			if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK); to było git
-//					if(HAL_I2C_Slave_Receive_IT(&hi2c1, I2cData2B, I2cDataSize2B) == HAL_OK);
 
-//			osDelay(100 / portTICK_PERIOD_MS);
-
-
-//			Message_t message = {
-//					.ID = I2cData2B[I2C_MSG_ID],/*HV_I2C_ID,*/    to bylo git
-//					.value = I2cData2B[I2C_MSG_VALUE1]/*test_value*/
-//			};
-
-
-
-
-
-//			test_value++;
-//			if(test_value >= 100)
-//			{
-//				test_value = 0;
-//			}
-
-//			osMessageQueuePut(queue_model_handle, &message, 0U, 0U); to bylo git
-
-//			message.ID = MSG_ID_GAS;
-//			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+			I2cData8B[I2C_MSG_ID] = 0;
+			I2cData8B[I2C_MSG_VALUE1] = 0;
+			I2cData8B[I2C_MSG_VALUE2] = 0;
+			I2cData8B[I2C_MSG_VALUE3] = 0;
+			I2cData8B[I2C_MSG_VALUE4] = 0;
+			I2cData8B[I2C_MSG_VALUE5] = 0;
+			I2cData8B[I2C_MSG_VALUE6] = 0;
+			I2cData8B[I2C_MSG_VALUE7] = 0;
 		}
 	}
 

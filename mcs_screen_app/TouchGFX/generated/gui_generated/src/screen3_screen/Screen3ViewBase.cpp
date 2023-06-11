@@ -81,39 +81,39 @@ Screen3ViewBase::Screen3ViewBase()
     add(ta_ams_title);
 
     img_scrn_ok.setXY(209, 63);
-    img_scrn_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_scrn_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_scrn_ok);
 
     img_hv_ok.setXY(209, 103);
-    img_hv_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_hv_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_hv_ok);
 
     img_front_sens_ok.setXY(209, 143);
-    img_front_sens_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_front_sens_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_front_sens_ok);
 
     img_l_motor_driver_ok.setXY(209, 183);
-    img_l_motor_driver_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_l_motor_driver_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_l_motor_driver_ok);
 
     img_main_ok.setXY(444, 63);
-    img_main_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_main_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_main_ok);
 
     img_lv_ok.setXY(444, 103);
-    img_lv_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_lv_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_lv_ok);
 
     img_rear_ec_ok.setXY(444, 143);
-    img_rear_ec_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_rear_ec_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_rear_ec_ok);
 
     img_r_motor_driver_ok.setXY(444, 183);
-    img_r_motor_driver_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_r_motor_driver_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_r_motor_driver_ok);
 
     img_ams_ok.setXY(326, 223);
-    img_ams_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2B_ID));
+    img_ams_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
     add(img_ams_ok);
 }
 

@@ -1010,7 +1010,7 @@
             "Y": 63,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1019,7 +1019,7 @@
             "Y": 103,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1028,7 +1028,7 @@
             "Y": 143,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1037,7 +1037,7 @@
             "Y": 183,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1046,7 +1046,7 @@
             "Y": 63,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1055,7 +1055,7 @@
             "Y": 103,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1064,7 +1064,7 @@
             "Y": 143,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1073,7 +1073,7 @@
             "Y": 183,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           },
           {
             "Type": "Image",
@@ -1082,7 +1082,7 @@
             "Y": 223,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2b.png"
+            "RelativeFilename": "can_status_2.png"
           }
         ],
         "Interactions": []
