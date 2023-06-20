@@ -18,9 +18,9 @@ void backend(void* argument)
 {
 	queue_model_handle = osMessageQueueNew(12, sizeof(Message_t), &queue_model_attr); //było 8
 
-	uint8_t I2cData2B[2];
+	uint8_t I2cData2B[2] = {0, 0};
 	uint16_t I2cDataSize2B = 2;
-	uint8_t I2cData8B[8];
+	uint8_t I2cData8B[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 	uint16_t I2cDataSize8B = 8;
 	uint8_t I2cData3B[3] = {0, 0, 0};
 	uint16_t I2cDataSize3B = 3;
@@ -76,26 +76,59 @@ void backend(void* argument)
 			osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 
 			while(I2cData8B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
+//			while(I2cData2B[I2C_MSG_ID] != I2C_DASHBOARD_GO_TO_NEXT_PAGE)
 			{
 				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
+//				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK)
 				{
-					for(uint8_t i = 0; i < 4; i++)
+					if(I2cData8B[I2C_MSG_ID] == I2C_CAN_STATUS_MAIN_OK_ID)
+//					if(I2cData2B[I2C_MSG_ID] == I2C_CAN_STATUS_MAIN_OK_ID)
 					{
-						Message_t message = {
-									.ID = I2cData8B[I2C_MSG_ID+2*i],
-									.value = I2cData8B[I2C_MSG_VALUE1+2*i]
-						};
-						osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+						for(uint8_t i = 0; i < 8; i++)
+						{
+							if(I2cData8B[I2C_MSG_VALUE1] & (1 << i) )
+//							if(I2cData2B[I2C_MSG_VALUE1] & (1 << i) )
+							{
+								Message_t message = {
+										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
+										.value = 1
+								};
+								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+							}
+							else
+							{
+								Message_t message = {
+										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
+										.value = 0
+									};
+								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+							}
+						}
 					}
 				}
+
+
+
+//				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData8B, I2cDataSize8B, HAL_MAX_DELAY) == HAL_OK)
+//				{
+//					for(uint8_t i = 0; i < 4; i++)
+//					{
+//						Message_t message = {
+//									.ID = I2cData8B[I2C_MSG_ID+2*i],
+//									.value = I2cData8B[I2C_MSG_VALUE1+2*i]
+//						};
+//						osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+//					}
+//				}
+
 			}
+//			I2cData2B[I2C_MSG_ID] = 0;
 			I2cData8B[I2C_MSG_ID] = 0;
 			screen_page++;
 		}
 
 		else if(screen_page == 3)
 		{
-
 			Message_t message = {
 						.ID = MSG_ID_SCREEN4
 			};
@@ -147,9 +180,12 @@ void backend(void* argument)
 						osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 					}
 				}
-
 			}
+
 			screen_page = 2;
+
+			I2cData2B[I2C_MSG_ID] = 0;
+			I2cData2B[I2C_MSG_VALUE1] = 0;
 
 			I2cData8B[I2C_MSG_ID] = 0;
 			I2cData8B[I2C_MSG_VALUE1] = 0;

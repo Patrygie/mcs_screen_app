@@ -121,9 +121,9 @@ Screen2ViewBase::Screen2ViewBase()
     add(c_tsac);
 
     c_leng.setPosition(10, 80, 84, 70);
-    img_LENG.setXY(0, 10);
-    img_LENG.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_3_ID));
-    c_leng.add(img_LENG);
+    img_leng.setXY(0, 10);
+    img_leng.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_3_ID));
+    c_leng.add(img_leng);
 
     ta_leng_value.setXY(25, 22);
     ta_leng_value.setColor(touchgfx::Color::getColorFromRGB(252, 250, 250));
@@ -267,12 +267,11 @@ Screen2ViewBase::Screen2ViewBase()
     img_hv.setBitmap(touchgfx::Bitmap(BITMAP_DRIVE_5B_ID));
     c_hv.add(img_hv);
 
-    ta_hv_value.setXY(108, 14);
+    ta_hv_value.setPosition(101, 14, 74, 37);
     ta_hv_value.setColor(touchgfx::Color::getColorFromRGB(250, 250, 250));
     ta_hv_value.setLinespacing(0);
     Unicode::snprintf(ta_hv_valueBuffer, TA_HV_VALUE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_0S5H).getText());
     ta_hv_value.setWildcard(ta_hv_valueBuffer);
-    ta_hv_value.resizeToCurrentText();
     ta_hv_value.setTypedText(touchgfx::TypedText(T___SINGLEUSE_MTZU));
     c_hv.add(ta_hv_value);
 

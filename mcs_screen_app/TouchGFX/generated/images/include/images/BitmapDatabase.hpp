@@ -26,11 +26,13 @@ const uint16_t BITMAP_DRIVE_1_RED_ID = 16;
 const uint16_t BITMAP_DRIVE_1_YELLOW_ID = 17;
 const uint16_t BITMAP_DRIVE_2_ID = 18;
 const uint16_t BITMAP_DRIVE_3_ID = 19;
-const uint16_t BITMAP_DRIVE_5_ID = 20;
-const uint16_t BITMAP_DRIVE_5A_ID = 21;
-const uint16_t BITMAP_DRIVE_5B_ID = 22;
-const uint16_t BITMAP_DRIVE_5C_ID = 23;
-const uint16_t BITMAP_LAUCH_1_ID = 24;
+const uint16_t BITMAP_DRIVE_3_RED_ID = 20;
+const uint16_t BITMAP_DRIVE_3_YELLOW_ID = 21;
+const uint16_t BITMAP_DRIVE_5_ID = 22;
+const uint16_t BITMAP_DRIVE_5A_ID = 23;
+const uint16_t BITMAP_DRIVE_5B_ID = 24;
+const uint16_t BITMAP_DRIVE_5C_ID = 25;
+const uint16_t BITMAP_LAUCH_1_ID = 26;
 
 namespace BitmapDatabase
 {

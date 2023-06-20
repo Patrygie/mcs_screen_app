@@ -215,3 +215,50 @@
 2023-06-10 10:15:11,530 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2023-06-10 10:15:11,530 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
 2023-06-10 10:15:11,534 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-13 18:51:50,972 [INFO] Activator:179 - 
+
+
+2023-06-13 18:51:50,973 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-13 18:52:18,265 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-13 18:52:18,266 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-13 18:52:18,267 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-15 13:42:51,735 [INFO] Activator:179 - 
+
+
+2023-06-15 13:42:51,735 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-15 13:43:19,017 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-15 13:43:19,017 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-15 13:43:19,023 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-15 15:07:12,927 [INFO] Activator:179 - 
+
+
+2023-06-15 15:07:12,927 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-15 15:07:46,853 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-15 15:07:46,853 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-15 15:07:46,859 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-16 17:36:26,546 [INFO] Activator:179 - 
+
+
+2023-06-16 17:36:26,546 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-16 17:37:02,164 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-16 17:37:02,164 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-16 17:37:02,172 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-20 09:54:49,741 [INFO] Activator:179 - 
+
+
+2023-06-20 09:54:49,744 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-20 09:55:24,283 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-20 09:55:24,285 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-20 09:55:24,294 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-20 13:57:03,444 [INFO] Activator:179 - 
+
+
+2023-06-20 13:57:03,446 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-20 13:57:32,339 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-20 13:57:32,339 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-20 13:57:32,345 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-20 15:26:49,464 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-06-20 15:26:52,434 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-06-20 21:08:31,268 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-06-20 21:08:33,133 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-06-20 21:08:34,056 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 

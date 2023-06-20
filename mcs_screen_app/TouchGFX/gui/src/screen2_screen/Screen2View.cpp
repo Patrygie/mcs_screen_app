@@ -82,6 +82,25 @@ void Screen2View::leng_update_value(uint32_t value)
 	Unicode::snprintf(ta_leng_valueBuffer, TA_LENG_VALUE_SIZE, "%d", value);
 	ta_leng_value.resizeToCurrentTextWithAlignment();
 	ta_leng_value.centerX();
+
+	if(value <= 255-10)
+	{
+		img_leng.setBitmap(Bitmap(BITMAP_DRIVE_3_ID));
+		img_leng.invalidate();
+	}
+
+	else if(value <= 255-5 && value > 255-10)
+	{
+		img_leng.setBitmap(Bitmap(BITMAP_DRIVE_3_YELLOW_ID));
+		img_leng.invalidate();
+	}
+
+	else if(value > 255-5)
+	{
+		img_leng.setBitmap(Bitmap(BITMAP_DRIVE_3_RED_ID));
+		img_leng.invalidate();
+	}
+
 	c_leng.invalidate();
 }
 
@@ -90,6 +109,25 @@ void Screen2View::linv_update_value(uint32_t value)
 	Unicode::snprintf(ta_linv_valueBuffer, TA_LINV_VALUE_SIZE, "%d", value);
 	ta_linv_value.resizeToCurrentTextWithAlignment();
 	ta_linv_value.centerX();
+
+	if(value <= 255-10)
+	{
+		img_linv.setBitmap(Bitmap(BITMAP_DRIVE_3_ID));
+		img_linv.invalidate();
+	}
+
+	else if(value <= 255-5 && value > 255-10)
+	{
+		img_linv.setBitmap(Bitmap(BITMAP_DRIVE_3_YELLOW_ID));
+		img_linv.invalidate();
+	}
+
+	else if(value > 255-5)
+	{
+		img_linv.setBitmap(Bitmap(BITMAP_DRIVE_3_RED_ID));
+		img_linv.invalidate();
+	}
+
 	c_linv.invalidate();
 }
 
@@ -106,6 +144,25 @@ void Screen2View::rinv_update_value(uint32_t value)
 	Unicode::snprintf(ta_rinv_valueBuffer, TA_RINV_VALUE_SIZE, "%d", value);
 	ta_rinv_value.resizeToCurrentTextWithAlignment();
 	ta_rinv_value.centerX();
+
+	if(value <= 255-10)
+	{
+		img_rinv.setBitmap(Bitmap(BITMAP_DRIVE_3_ID));
+		img_rinv.invalidate();
+	}
+
+	else if(value <= 255-5 && value > 255-10)
+	{
+		img_rinv.setBitmap(Bitmap(BITMAP_DRIVE_3_YELLOW_ID));
+		img_rinv.invalidate();
+	}
+
+	else if(value > 255-5)
+	{
+		img_rinv.setBitmap(Bitmap(BITMAP_DRIVE_3_RED_ID));
+		img_rinv.invalidate();
+	}
+
 	c_rinv.invalidate();
 }
 
@@ -114,6 +171,25 @@ void Screen2View::reng_update_value(uint32_t value)
 	Unicode::snprintf(ta_reng_valueBuffer, TA_RENG_VALUE_SIZE, "%d", value);
 	ta_reng_value.resizeToCurrentTextWithAlignment();
 	ta_reng_value.centerX();
+
+	if(value <= 255-10)
+	{
+		img_reng.setBitmap(Bitmap(BITMAP_DRIVE_3_ID));
+		img_reng.invalidate();
+	}
+
+	else if(value <= 255-5 && value > 255-10)
+	{
+		img_reng.setBitmap(Bitmap(BITMAP_DRIVE_3_YELLOW_ID));
+		img_reng.invalidate();
+	}
+
+	else if(value > 255-5)
+	{
+		img_reng.setBitmap(Bitmap(BITMAP_DRIVE_3_RED_ID));
+		img_reng.invalidate();
+	}
+
 	c_reng.invalidate();
 }
 

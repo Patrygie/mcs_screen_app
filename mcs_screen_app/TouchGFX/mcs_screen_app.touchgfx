@@ -303,7 +303,7 @@
             "Components": [
               {
                 "Type": "Image",
-                "Name": "img_LENG",
+                "Name": "img_leng",
                 "Y": 10,
                 "Width": 84,
                 "Height": 60,
@@ -653,9 +653,9 @@
               {
                 "Type": "TextArea",
                 "Name": "ta_hv_value",
-                "X": 108,
+                "X": 101,
                 "Y": 14,
-                "Width": 56,
+                "Width": 74,
                 "Height": 37,
                 "TextId": "__SingleUse_MTZU",
                 "TextRotation": "0",
@@ -664,7 +664,6 @@
                   "Green": 250,
                   "Blue": 250
                 },
-                "AutoSize": true,
                 "Wildcard1": {
                   "TextId": "__SingleUse_0S5H",
                   "UseBuffer": true,
@@ -1010,7 +1009,7 @@
             "Y": 63,
             "Width": 24,
             "Height": 24,
-            "RelativeFilename": "can_status_2.png"
+            "RelativeFilename": "can_status_2c.png"
           },
           {
             "Type": "Image",

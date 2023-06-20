@@ -3834,7 +3834,9 @@ HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Cha
 void HAL_TIM_IRQHandler(TIM_HandleTypeDef *htim)
 {
   /* Capture compare 1 event */
-  if (__HAL_TIM_GET_FLAG(htim, TIM_FLAG_CC1) != RESET)
+
+
+	if (__HAL_TIM_GET_FLAG(htim, TIM_FLAG_CC1) != RESET)
   {
     if (__HAL_TIM_GET_IT_SOURCE(htim, TIM_IT_CC1) != RESET)
     {

@@ -794,6 +794,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_drive_3.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_drive_3_red.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_drive_3_red.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_drive_3_yellow.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_drive_3_yellow.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_drive_5.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_drive_5.cpp</locationURI>

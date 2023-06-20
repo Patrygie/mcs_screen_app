@@ -51,7 +51,7 @@ protected:
     touchgfx::TextArea ta_tsac_title;
     touchgfx::TextAreaWithOneWildcard ta_tsac_value;
     touchgfx::Container c_leng;
-    touchgfx::Image img_LENG;
+    touchgfx::Image img_leng;
     touchgfx::TextAreaWithOneWildcard ta_leng_value;
     touchgfx::TextArea ta_leng_title;
     touchgfx::Container c_linv;

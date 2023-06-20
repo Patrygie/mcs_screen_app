@@ -62,6 +62,8 @@
 "./Application/User/generated/image_drive_1_yellow.o"
 "./Application/User/generated/image_drive_2.o"
 "./Application/User/generated/image_drive_3.o"
+"./Application/User/generated/image_drive_3_red.o"
+"./Application/User/generated/image_drive_3_yellow.o"
 "./Application/User/generated/image_drive_5.o"
 "./Application/User/generated/image_drive_5a.o"
 "./Application/User/generated/image_drive_5b.o"

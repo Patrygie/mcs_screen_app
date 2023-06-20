@@ -81,7 +81,7 @@ Screen3ViewBase::Screen3ViewBase()
     add(ta_ams_title);
 
     img_scrn_ok.setXY(209, 63);
-    img_scrn_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2_ID));
+    img_scrn_ok.setBitmap(touchgfx::Bitmap(BITMAP_CAN_STATUS_2C_ID));
     add(img_scrn_ok);
 
     img_hv_ok.setXY(209, 103);
