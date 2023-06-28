@@ -64,8 +64,8 @@ void backend(void* argument)
 				if(HAL_I2C_Slave_Receive(&hi2c1, I2cData2B, I2cDataSize2B, HAL_MAX_DELAY) == HAL_OK);
 			}
 
-			screen_page++;
 			I2cData2B[I2C_MSG_ID] = 0;
+			screen_page++;
 		}
 
 		else if(screen_page == 2)
@@ -100,7 +100,7 @@ void backend(void* argument)
 								Message_t message = {
 										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
 										.value = 0
-									};
+								};
 								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 							}
 						}
@@ -148,7 +148,7 @@ void backend(void* argument)
 					Message_t message = {
 								.ID = I2cData3B[I2C_MSG_ID],
 								.value = Value16Bit
-						};
+					};
 					osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 				}
 			}

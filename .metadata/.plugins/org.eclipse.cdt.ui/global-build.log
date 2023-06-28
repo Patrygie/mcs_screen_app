@@ -22,3 +22,129 @@ arm-none-eabi-size   STM32F746G_DISCO.elf
 2274896	    328	1401596	3676820	 381a94	STM32F746G_DISCO.elf
 Finished building: default.size.stdout
  
+19:19:41 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+2274896	    328	1401596	3676820	 381a94	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+19:23:36 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-gcc "../Application/User/Core/backend.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F746xx -DDEBUG -c -I../../Core/Inc -I../../TouchGFX/App -I../../TouchGFX/target/generated -I../../TouchGFX/target -I../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../Drivers/CMSIS/Include -I../../Middlewares/ST/touchgfx/framework/include -I../../TouchGFX/generated/fonts/include -I../../TouchGFX/generated/gui_generated/include -I../../TouchGFX/generated/images/include -I../../TouchGFX/generated/texts/include -I../../TouchGFX/gui/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../../Drivers/BSP/STM32746G-Discovery -I../../Drivers/BSP/Components/ft5336 -I../../LIBJPEG/App -I../../LIBJPEG/Target -I../../Middlewares/Third_Party/LibJPEG/include -I../../TouchGFX/generated/videos/include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/Core/backend.d" -MT"Application/User/Core/backend.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/Core/backend.o"
+../Application/User/Core/backend.c: In function 'backend':
+../Application/User/Core/backend.c:30:10: warning: unused variable 'page_lock' [-Wunused-variable]
+   30 |  uint8_t page_lock = 0;
+      |          ^~~~~~~~~
+arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m7 -T"D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/dev/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F746G_DISCO.elf
+ 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F746G_DISCO.elf  > "STM32F746G_DISCO.list"
+   text	   data	    bss	    dec	    hex	filename
+2274896	    328	1401596	3676820	 381a94	STM32F746G_DISCO.elf
+arm-none-eabi-objcopy  -O ihex  STM32F746G_DISCO.elf  "STM32F746G_DISCO.hex"
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746G_DISCO.hex
+ 
+Finished building: STM32F746G_DISCO.list
+ 
+19:41:53 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-gcc "../Application/User/Core/backend.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F746xx -DDEBUG -c -I../../Core/Inc -I../../TouchGFX/App -I../../TouchGFX/target/generated -I../../TouchGFX/target -I../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../Drivers/CMSIS/Include -I../../Middlewares/ST/touchgfx/framework/include -I../../TouchGFX/generated/fonts/include -I../../TouchGFX/generated/gui_generated/include -I../../TouchGFX/generated/images/include -I../../TouchGFX/generated/texts/include -I../../TouchGFX/gui/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../../Drivers/BSP/STM32746G-Discovery -I../../Drivers/BSP/Components/ft5336 -I../../LIBJPEG/App -I../../LIBJPEG/Target -I../../Middlewares/Third_Party/LibJPEG/include -I../../TouchGFX/generated/videos/include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/Core/backend.d" -MT"Application/User/Core/backend.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/Core/backend.o"
+../Application/User/Core/backend.c: In function 'backend':
+../Application/User/Core/backend.c:30:10: warning: unused variable 'page_lock' [-Wunused-variable]
+   30 |  uint8_t page_lock = 0;
+      |          ^~~~~~~~~
+arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m7 -T"D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/dev/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F746G_DISCO.elf
+ 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F746G_DISCO.elf  > "STM32F746G_DISCO.list"
+arm-none-eabi-objcopy  -O ihex  STM32F746G_DISCO.elf  "STM32F746G_DISCO.hex"
+   text	   data	    bss	    dec	    hex	filename
+2274880	    328	1401596	3676804	 381a84	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746G_DISCO.hex
+ 
+Finished building: STM32F746G_DISCO.list
+ 
+19:43:30 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+2274880	    328	1401596	3676804	 381a84	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+19:53:23 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-gcc "../Application/User/Core/backend.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F746xx -DDEBUG -c -I../../Core/Inc -I../../TouchGFX/App -I../../TouchGFX/target/generated -I../../TouchGFX/target -I../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../Drivers/CMSIS/Include -I../../Middlewares/ST/touchgfx/framework/include -I../../TouchGFX/generated/fonts/include -I../../TouchGFX/generated/gui_generated/include -I../../TouchGFX/generated/images/include -I../../TouchGFX/generated/texts/include -I../../TouchGFX/gui/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../../Drivers/BSP/STM32746G-Discovery -I../../Drivers/BSP/Components/ft5336 -I../../LIBJPEG/App -I../../LIBJPEG/Target -I../../Middlewares/Third_Party/LibJPEG/include -I../../TouchGFX/generated/videos/include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/Core/backend.d" -MT"Application/User/Core/backend.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/Core/backend.o"
+../Application/User/Core/backend.c: In function 'backend':
+../Application/User/Core/backend.c:30:10: warning: unused variable 'page_lock' [-Wunused-variable]
+   30 |  uint8_t page_lock = 0;
+      |          ^~~~~~~~~
+arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m7 -T"D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/dev/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F746G_DISCO.elf
+ 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F746G_DISCO.elf  > "STM32F746G_DISCO.list"
+arm-none-eabi-objcopy  -O ihex  STM32F746G_DISCO.elf  "STM32F746G_DISCO.hex"
+   text	   data	    bss	    dec	    hex	filename
+2274864	    328	1401596	3676788	 381a74	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746G_DISCO.hex
+ 
+Finished building: STM32F746G_DISCO.list
+ 
+20:03:57 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-gcc "../Application/User/Core/backend.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F746xx -DDEBUG -c -I../../Core/Inc -I../../TouchGFX/App -I../../TouchGFX/target/generated -I../../TouchGFX/target -I../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../Drivers/CMSIS/Include -I../../Middlewares/ST/touchgfx/framework/include -I../../TouchGFX/generated/fonts/include -I../../TouchGFX/generated/gui_generated/include -I../../TouchGFX/generated/images/include -I../../TouchGFX/generated/texts/include -I../../TouchGFX/gui/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../../Drivers/BSP/STM32746G-Discovery -I../../Drivers/BSP/Components/ft5336 -I../../LIBJPEG/App -I../../LIBJPEG/Target -I../../Middlewares/Third_Party/LibJPEG/include -I../../TouchGFX/generated/videos/include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/Core/backend.d" -MT"Application/User/Core/backend.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/Core/backend.o"
+../Application/User/Core/backend.c: In function 'backend':
+../Application/User/Core/backend.c:30:10: warning: unused variable 'page_lock' [-Wunused-variable]
+   30 |  uint8_t page_lock = 0;
+      |          ^~~~~~~~~
+arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m7 -T"D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/dev/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F746G_DISCO.elf
+ 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F746G_DISCO.elf  > "STM32F746G_DISCO.list"
+arm-none-eabi-objcopy  -O ihex  STM32F746G_DISCO.elf  "STM32F746G_DISCO.hex"
+   text	   data	    bss	    dec	    hex	filename
+2274880	    328	1401596	3676804	 381a84	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746G_DISCO.hex
+ 
+Finished building: STM32F746G_DISCO.list
+ 
+20:10:53 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+2274880	    328	1401596	3676804	 381a84	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+20:14:48 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j12 all 
+arm-none-eabi-gcc "../Application/User/Core/backend.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F746xx -DDEBUG -c -I../../Core/Inc -I../../TouchGFX/App -I../../TouchGFX/target/generated -I../../TouchGFX/target -I../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../Drivers/CMSIS/Include -I../../Middlewares/ST/touchgfx/framework/include -I../../TouchGFX/generated/fonts/include -I../../TouchGFX/generated/gui_generated/include -I../../TouchGFX/generated/images/include -I../../TouchGFX/generated/texts/include -I../../TouchGFX/gui/include -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../../Drivers/BSP/STM32746G-Discovery -I../../Drivers/BSP/Components/ft5336 -I../../LIBJPEG/App -I../../LIBJPEG/Target -I../../Middlewares/Third_Party/LibJPEG/include -I../../TouchGFX/generated/videos/include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/Core/backend.d" -MT"Application/User/Core/backend.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/Core/backend.o"
+../Application/User/Core/backend.c: In function 'backend':
+../Application/User/Core/backend.c:30:10: warning: unused variable 'page_lock' [-Wunused-variable]
+   30 |  uint8_t page_lock = 0;
+      |          ^~~~~~~~~
+arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m7 -T"D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/dev/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/pacman/at/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/aplikacja_test2/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/TouchGFX/Projekty/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/Users/patry/Desktop/BolidSpotkanie2/Projekt/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F746G_DISCO.elf
+ 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F746G_DISCO.elf  > "STM32F746G_DISCO.list"
+arm-none-eabi-objcopy  -O ihex  STM32F746G_DISCO.elf  "STM32F746G_DISCO.hex"
+   text	   data	    bss	    dec	    hex	filename
+2274896	    328	1401596	3676820	 381a94	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746G_DISCO.hex
+ 
+Finished building: STM32F746G_DISCO.list
+ 

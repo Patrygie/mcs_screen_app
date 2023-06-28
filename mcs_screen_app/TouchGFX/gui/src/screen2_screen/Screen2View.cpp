@@ -215,6 +215,25 @@ void Screen2View::low_update_value(uint32_t value)
 	Unicode::snprintf(ta_low_valueBuffer, TA_LOW_VALUE_SIZE, "%d", value);
 	ta_low_value.resizeToCurrentTextWithAlignment();
 	ta_low_value.centerX();
+
+	if(value > 255*0.3)
+	{
+		img_low.setBitmap(Bitmap(BITMAP_DRIVE_3_ID));
+		img_low.invalidate();
+	}
+
+	else if(value <= 255*0.3 && value > 255*0.1)
+	{
+		img_low.setBitmap(Bitmap(BITMAP_DRIVE_3_YELLOW_ID));
+		img_low.invalidate();
+	}
+
+	else if(value <= 255*0.1)
+	{
+		img_low.setBitmap(Bitmap(BITMAP_DRIVE_3_RED_ID));
+		img_low.invalidate();
+	}
+
 	c_low.invalidate();
 }
 
