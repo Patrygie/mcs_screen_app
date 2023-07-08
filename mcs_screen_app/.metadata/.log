@@ -300,3 +300,748 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-28 08:51:14.812
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:11.550
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:11.550
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:11.550
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.621
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.621
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.621
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.636
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.636
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.636
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.646
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.648
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.648
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.652
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.652
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.652
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.652
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.652
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.652
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.693
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.693
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.693
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.700
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.700
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.700
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.700
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.700
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.700
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.708
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.708
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.708
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.716
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.716
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.716
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.722
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.722
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.724
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.725
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.725
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.725
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.731
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.731
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.731
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.731
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.731
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.731
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.759
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.759
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.759
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.763
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.763
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.763
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.779
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.779
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.779
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.780
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.780
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.780
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.795
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.795
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.795
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.804
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.804
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.804
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.811
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.811
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.811
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.811
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.811
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.811
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.827
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.827
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.827
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.831
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.831
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.831
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.842
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.842
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.842
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.851
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.851
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.851
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.858
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.858
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.858
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.874
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.874
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.874
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.874
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.874
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.874
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.874
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.874
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.874
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.889
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.889
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.889
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.893
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.893
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.893
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.893
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.893
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.893
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.902
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.902
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.902
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.908
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.908
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.908
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.914
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.914
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.914
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.914
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.914
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.914
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.932
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.932
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.932
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.932
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.932
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.932
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.938
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.938
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.938
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.938
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.938
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.938
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.947
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.947
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.947
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.951
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.951
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.951
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.954
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.954
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.954
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.954
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.954
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.954
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.954
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.954
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.954
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.969
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.969
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.969
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.969
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.969
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.969
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.984
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.984
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.984
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.984
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.984
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.984
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.993
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.993
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.993
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:35.993
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:35.993
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:35.993
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.000
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.000
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.000
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.000
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.000
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.000
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.000
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.000
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.000
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.012
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.012
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.012
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.018
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.018
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.018
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.018
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.018
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.018
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.018
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.018
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.018
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.036
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.036
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.036
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.036
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.036
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.036
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.036
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.036
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.036
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.048
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.048
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.048
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.048
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.048
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.064
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.064
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.064
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.064
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.064
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.087
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.087
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.087
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.087
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.087
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.087
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.096
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.096
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.096
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.096
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.096
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.096
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.096
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.096
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.096
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.161
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.161
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.161
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.166
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.166
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.166
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.166
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.166
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.166
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.174
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.174
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.174
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.174
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.174
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.174
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.174
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.174
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.174
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.194
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.194
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.194
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.194
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.194
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.194
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.194
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.194
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.194
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.206
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.206
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.206
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.206
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.206
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.221
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.221
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.221
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.221
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.221
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.237
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.237
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.237
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.237
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.237
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.253
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.253
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.253
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.253
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.253
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.253
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+
+!ENTRY org.eclipse.core.resources 4 77 2023-06-28 09:15:36.363
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-06-28 09:15:36.363
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-06-28 09:15:36.363
+!MESSAGE D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\STM32CubeIDE overlaps the location of another project: 'STM32CubeIDE'
+!SESSION 2023-07-05 09:28:22.558 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-07-05 09:28:44.169
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-07-05 09:28:44.307
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-07-05 09:28:54.791
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2023-07-07 17:27:21.586 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-07-07 17:27:35.950
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-07-07 17:27:36.062
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-07-07 17:27:46.913
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2023-07-08 11:17:09.425 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-07-08 11:17:21.869
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-07-08 11:17:22.002
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\wyswietlacz\mcs_screen_app\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-07-08 11:17:33.508
+!MESSAGE Started RMI Server, listening on port 41339
