@@ -18,6 +18,7 @@ void backend(void* argument)
 {
 	queue_model_handle = osMessageQueueNew(12, sizeof(Message_t), &queue_model_attr); //było 8
 
+	uint8_t can_status_value = 0;
 	uint8_t I2cData2B[2] = {0, 0};
 	uint16_t I2cDataSize2B = 2;
 	uint8_t I2cData8B[8] = {0, 0, 0, 0, 0, 0, 0, 0};
@@ -29,6 +30,8 @@ void backend(void* argument)
 	uint8_t screen_page = 1;
 
 	osDelay(1000 / portTICK_PERIOD_MS); //delay dla wyświetlenia loga koła
+
+//	uint8_t I2C_test[2] = {0xEE, 1};
 
 	while(1)
 	{
@@ -64,21 +67,30 @@ void backend(void* argument)
 							if(I2cData8B[I2C_MSG_VALUE1] & (1 << i) )
 //							if(I2cData2B[I2C_MSG_VALUE1] & (1 << i) )
 							{
-								Message_t message = {
-										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
-										.value = 1
-								};
-								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+								can_status_value = 1;
+//								Message_t message = {
+//										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
+//										.value = 1
+//								};
+//								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 							}
 							else
 							{
-								Message_t message = {
-										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
-										.value = 0
-								};
-								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
+								can_status_value = 0;
+//								Message_t message = {
+//										.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
+//										.value = 0
+//								};
+//								osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 							}
+							Message_t message = {
+									.ID = I2C_CAN_STATUS_MAIN_OK_ID + i,
+									.value = can_status_value
+							};
+							osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 						}
+
+
 
 			/*			if(I2cData2B[I2C_MSG_VALUE1] & (1 << 0)) {
 							Message_t message = {
@@ -162,6 +174,9 @@ void backend(void* argument)
 
 		else if(screen_page == 3)
 		{
+//			I2C_test[1] = 0;
+//			HAL_I2C_Slave_Transmit_IT(&hi2c1, I2C_test, I2cDataSize2B);
+
 			Message_t message = {
 						.ID = MSG_ID_SCREEN4
 			};
@@ -194,6 +209,9 @@ void backend(void* argument)
 
 		else if(screen_page == 4)
 		{
+//			I2C_test[1] = 1;
+//			HAL_I2C_Slave_Transmit_IT(&hi2c1, I2C_test, I2cDataSize2B);
+
 			Message_t message = {
 							.ID = MSG_ID_SCREEN2
 			};
@@ -210,6 +228,7 @@ void backend(void* argument)
 									.ID = I2cData8B[I2C_MSG_ID+2*i],
 									.value = I2cData8B[I2C_MSG_VALUE1+2*i]
 						};
+						if(message.ID == 0) break;
 						osMessageQueuePut(queue_model_handle, &message, 0U, 0U);
 					}
 				}
