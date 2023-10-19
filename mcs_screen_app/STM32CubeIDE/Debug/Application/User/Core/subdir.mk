@@ -5,6 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Application/User/Core/I2C_lib.c \
 ../Application/User/Core/backend.c \
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Core/Src/freertos.c \
 D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Core/Src/main.c \
@@ -15,6 +16,7 @@ D:/STM32CubeIDE/wyswietlacz/mcs_screen_app/Core/Src/stm32f7xx_it.c \
 ../Application/User/Core/sysmem.c 
 
 C_DEPS += \
+./Application/User/Core/I2C_lib.d \
 ./Application/User/Core/backend.d \
 ./Application/User/Core/freertos.d \
 ./Application/User/Core/main.d \
@@ -25,6 +27,7 @@ C_DEPS += \
 ./Application/User/Core/sysmem.d 
 
 OBJS += \
+./Application/User/Core/I2C_lib.o \
 ./Application/User/Core/backend.o \
 ./Application/User/Core/freertos.o \
 ./Application/User/Core/main.o \
@@ -52,7 +55,7 @@ Application/User/Core/stm32f7xx_it.o: D:/STM32CubeIDE/wyswietlacz/mcs_screen_app
 clean: clean-Application-2f-User-2f-Core
 
 clean-Application-2f-User-2f-Core:
-	-$(RM) ./Application/User/Core/backend.d ./Application/User/Core/backend.o ./Application/User/Core/backend.su ./Application/User/Core/freertos.d ./Application/User/Core/freertos.o ./Application/User/Core/freertos.su ./Application/User/Core/main.d ./Application/User/Core/main.o ./Application/User/Core/main.su ./Application/User/Core/stm32f7xx_hal_msp.d ./Application/User/Core/stm32f7xx_hal_msp.o ./Application/User/Core/stm32f7xx_hal_msp.su ./Application/User/Core/stm32f7xx_hal_timebase_tim.d ./Application/User/Core/stm32f7xx_hal_timebase_tim.o ./Application/User/Core/stm32f7xx_hal_timebase_tim.su ./Application/User/Core/stm32f7xx_it.d ./Application/User/Core/stm32f7xx_it.o ./Application/User/Core/stm32f7xx_it.su ./Application/User/Core/syscalls.d ./Application/User/Core/syscalls.o ./Application/User/Core/syscalls.su ./Application/User/Core/sysmem.d ./Application/User/Core/sysmem.o ./Application/User/Core/sysmem.su
+	-$(RM) ./Application/User/Core/I2C_lib.d ./Application/User/Core/I2C_lib.o ./Application/User/Core/I2C_lib.su ./Application/User/Core/backend.d ./Application/User/Core/backend.o ./Application/User/Core/backend.su ./Application/User/Core/freertos.d ./Application/User/Core/freertos.o ./Application/User/Core/freertos.su ./Application/User/Core/main.d ./Application/User/Core/main.o ./Application/User/Core/main.su ./Application/User/Core/stm32f7xx_hal_msp.d ./Application/User/Core/stm32f7xx_hal_msp.o ./Application/User/Core/stm32f7xx_hal_msp.su ./Application/User/Core/stm32f7xx_hal_timebase_tim.d ./Application/User/Core/stm32f7xx_hal_timebase_tim.o ./Application/User/Core/stm32f7xx_hal_timebase_tim.su ./Application/User/Core/stm32f7xx_it.d ./Application/User/Core/stm32f7xx_it.o ./Application/User/Core/stm32f7xx_it.su ./Application/User/Core/syscalls.d ./Application/User/Core/syscalls.o ./Application/User/Core/syscalls.su ./Application/User/Core/sysmem.d ./Application/User/Core/sysmem.o ./Application/User/Core/sysmem.su
 
 .PHONY: clean-Application-2f-User-2f-Core
 

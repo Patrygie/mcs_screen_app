@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="car_config_throttle_min_update_value"/>
+		<item key="selection" value="RxSize"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="RxSize"/>
+			<item value="process_data"/>
+			<item value="is_first_recvd"/>
+			<item value="first_received"/>
+			<item value="RxSIZE"/>
+			<item value="IZE"/>
+			<item value="screen_page"/>
+			<item value="RxData"/>
+			<item value="rxcount"/>
+			<item value="I2C_DriveMapTcDiffTsacValue_ID"/>
+			<item value="c_tsac.invalidate();"/>
+			<item value="CanStatus"/>
 			<item value="car_config_throttle_min_update_value"/>
 			<item value="P2D"/>
 		</list>
 		<list key="replacehistory">
+			<item value="ProcessData"/>
+			<item value="first_received"/>
+			<item value="RxSize"/>
+			<item value="first_lock"/>
+			<item value="RxDataa"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="784"/>
-		<item key="DIALOG_Y_ORIGIN" value="276"/>
+		<item key="DIALOG_X_ORIGIN" value="1082"/>
+		<item key="DIALOG_Y_ORIGIN" value="266"/>
 		<item key="DIALOG_WIDTH" value="364"/>
 		<item key="DIALOG_HEIGHT" value="370"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

@@ -16,7 +16,6 @@ public:
         model = m;
     }
 
-
     virtual void can_status_mcs_scrn_update_value(uint32_t value){};
     virtual void can_status_mcs_main_update_value(uint32_t value){};
     virtual void can_status_mcs_hv_update_value(uint32_t value){};

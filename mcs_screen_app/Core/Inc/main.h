@@ -44,74 +44,71 @@ typedef struct
 	uint32_t value;
 }Message_t;
 
-enum I2C_MSG_FRAME
+typedef enum
 {
-	I2C_MSG_ID = 	0u,
-	I2C_MSG_VALUE1 = 1u,
-	I2C_MSG_VALUE2 = 2u,
-	I2C_MSG_VALUE3 = 3u,
-	I2C_MSG_VALUE4 = 4u,
-	I2C_MSG_VALUE5 = 5u,
-	I2C_MSG_VALUE6 = 6u,
-	I2C_MSG_VALUE7 = 7u
-};
+	RxSize =  0u,
+	RxRegID = 1u,
+	RxData1 = 2u,
+	RxData2 = 3u,
+	RxData3 = 4u,
+	RxData4 = 5u,
+}I2cMessageFrame;
 
-enum I2C_MSG_ID
+typedef enum
 {
-	MSG_ID_SCREEN2 = 0x01u,
-	MSG_ID_SCREEN3 = 0x03u,
-	MSG_ID_SCREEN4 = 0x04u,
+	Screen2_ID = 0x01u,
+	Screen3_ID = 0x03u,
+	Screen4_ID = 0x04u,
 
-	I2C_DASHBOARD_GO_TO_NEXT_PAGE = 		0x05u,
+	NextPage_ID = 		0x05u,
 
-	I2C_CAN_STATUS_SCRN_OK_ID = 			0x0Au,
-	I2C_CAN_STATUS_MAIN_OK_ID = 			0x0Bu,
-	I2C_CAN_STATUS_HV_OK_ID = 				0x0Cu,
-	I2C_CAN_STATUS_LV_OK_ID = 				0x0Du,
-	I2C_CAN_STATUS_FRONT_SENS_OK_ID = 		0x0Eu,
-	I2C_CAN_STATUS_REAR_EC_OK_ID = 			0x0Fu,
-	I2C_CAN_STATUS_L_MOTOR_DRIVER_OK_ID = 	0x10u,
-	I2C_CAN_STATUS_R_MOTOR_DRIVER_OK_ID = 	0x11u,
-	I2C_CAN_STATUS_AMS_OK_ID = 				0x12u,
+	StatusScrn_ID = 	0x0Au,
+	StatusMain_ID = 	0x0Bu,
+	StatusHv_ID = 		0x0Cu,
+	StatusLv_ID = 		0x0Du,
+	StatusFrontSens_ID = 0x0Eu,
+	StatusRearEC_ID = 	0x0Fu,
+	StatusLMD_ID = 		0x10u,
+	StatusRMD_ID = 		0x11u,
+	StatusAms_ID = 		0x12u,
 
-//	I2C_PLUS_ID = 0x1Eu,
+	BrakeMin_ID = 		0x24u,
+	BrakeMax_ID = 		0x26u,
+	BrakeRelOk_ID = 	0x27u,
+	BrakeRel_ID = 		0x28u,
+	ThrottleMin_ID = 	0x2Au,
+	ThrottleMax_ID = 	0x2Cu,
+	ThrottleRelOk_ID = 	0x2Du,
+	ThrottleRel_ID = 	0x2Eu,
+	StationaryMode_ID = 0x2Fu,
+	DrivingMode_ID = 	0x30u,
+	RepeatCallibration_ID = 0x31u,
+	DashReset_ID = 		0x32u,
 
+	P2D_ID = 		0x38u,
+	TS_ID = 		0x39u,
+	MAP_ID = 		0x3Cu,
+	TC_ID = 		0x3Bu,
+	DIFF_ID = 		0x3Eu,
+	TSAC_ID = 		0x3Fu,
+	SPEED_ID = 		0x40u,
+	LENG_ID = 		0x41u,
+	RENG_ID = 		0x42u,
+	LINV_ID = 		0x43u,
+	RINV_ID = 		0x44u,
+	BAT_ID = 		0x45u,
+	HV_ID = 		0x46u,
+	LOW_ID = 		0x47u,
+	ERR_ID = 		0x48u,
+	THROTTLE_ID = 	0x4Au,
 
-	I2C_CAR_CONFIG_BRAKE_MIN_VALUE_ID = 		0x24u,
-	I2C_CAR_CONFIG_BRAKE_MAX_VALUE_ID = 		0x26u,
-	I2C_CAR_CONFIG_BRAKE_REL_ACCEPTED = 		0x27u,
-	I2C_CAR_CONFIG_BRAKE_REL_VALUE_ID = 		0x28u,
-	I2C_CAR_CONFIG_THROTTLE_MIN_VALUE_ID = 		0x2Au,
-	I2C_CAR_CONFIG_THROTTLE_MAX_VALUE_ID = 		0x2Cu,
-	I2C_CAR_CONFIG_THROTTLE_REL_ACCEPTED = 		0x2Du,
-	I2C_CAR_CONFIG_THROTTLE_REL_VALUE_ID = 		0x2Eu,
-	I2C_CAR_CONFIG_SELECT_STATIONARY_MODE = 	0x2Fu,
-	I2C_CAR_CONFIG_SELECT_DRIVING_MODE = 		0x30u,
-	I2C_CAR_CONFIG_SELECT_REPEAT_CALIBRATION = 	0x31u,
-	I2C_CAR_CONFIG_DASHBOARD_RESET_ID = 		0x32u,
+	SelectMAP_ID = 	0x49u,
+	SelectTC_ID = 	0x4Bu,
+	SelectDIFF_ID = 0x4Cu,
+	SelectTSAC_ID = 0x4Du,
 
-	I2C_DRIVE_P2D_ID = 	0x38u,
-	I2C_DRIVE_TS_ID = 	0x39u,
-	I2C_DRIVE_MAP_ID = 	0x3Cu,
-	I2C_DRIVE_TC_ID = 	0x3Bu,
-	I2C_DRIVE_DIFF_ID = 0x3Eu,
-	I2C_DRIVE_TSAC_ID = 0x3Fu,
-	I2C_DRIVE_SPEED_ID = 0x40u,
-	I2C_DRIVE_LENG_ID = 0x41u,
-	I2C_DRIVE_RENG_ID = 0x42u,
-	I2C_DRIVE_LINV_ID = 0x43u,
-	I2C_DRIVE_RINV_ID = 0x44u,
-	I2C_DRIVE_BAT_ID = 	0x45u,
-	I2C_DRIVE_HV_ID = 	0x46u,
-	I2C_DRIVE_LOW_ID = 	0x47u,
-	I2C_DRIVE_ERR_ID = 	0x48u,
-	I2C_DRIVE_THROTTLE_ID = 0x4Au,
-
-	I2C_DRIVE_SELECT_MAP_ID = 0x49u,
-	I2C_DRIVE_SELECT_TC_ID = 0x4Bu,
-	I2C_DRIVE_SELECT_DIFF_ID = 0x4Cu,
-	I2C_DRIVE_SELECT_TSAC_ID = 0x4Du
-};
+	I2C_DriveMapTcDiffTsacValue_ID = 0x4Eu,
+}I2cMessageID;
 
 
 /* USER CODE END ET */
@@ -138,6 +135,8 @@ void Error_Handler(void);
 #define VSYNC_FREQ_GPIO_Port GPIOB
 #define LCD_BL_CTRL_Pin GPIO_PIN_3
 #define LCD_BL_CTRL_GPIO_Port GPIOK
+#define internal_led_Pin GPIO_PIN_1
+#define internal_led_GPIO_Port GPIOI
 #define LCD_DISP_Pin GPIO_PIN_12
 #define LCD_DISP_GPIO_Port GPIOI
 #define FRAME_RATE_Pin GPIO_PIN_7

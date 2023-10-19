@@ -5,17 +5,18 @@
 
 #include "main.h"
 #include "cmsis_os.h"
-#include "queue.h"	//dodane
+#include "queue.h"
 
 extern osMessageQueueId_t queue_model_handle;
+FrontendApplication* App3;
+FrontendApplication* App4;
+FrontendApplication* App;
 
 Model::Model() : modelListener(0)
 {
 
 }
-FrontendApplication* App3;
-FrontendApplication* App4;
-FrontendApplication* App;
+
 void Model::tick()
 {
 	Message_t message;
@@ -24,149 +25,146 @@ void Model::tick()
 	{
 		switch(message.ID)
 		{
-		case MSG_ID_SCREEN3:
-//			FrontendApplication* App3;
+		case Screen3_ID:
 			App3 = static_cast<FrontendApplication*>(Application::getInstance());
 			App3->goto_screen3();
 			break;
 
-		case I2C_CAN_STATUS_SCRN_OK_ID:
+		case StatusScrn_ID:
 			modelListener->can_status_mcs_scrn_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_MAIN_OK_ID:
+		case StatusMain_ID:
 			modelListener->can_status_mcs_main_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_HV_OK_ID:
+		case StatusHv_ID:
 			modelListener->can_status_mcs_hv_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_LV_OK_ID:
+		case StatusLv_ID:
 			modelListener->can_status_mcs_lv_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_FRONT_SENS_OK_ID:
+		case StatusFrontSens_ID:
 			modelListener->can_status_mcs_front_sens_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_REAR_EC_OK_ID:
+		case StatusRearEC_ID:
 			modelListener->can_status_mcs_rear_ec_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_L_MOTOR_DRIVER_OK_ID:
+		case StatusLMD_ID:
 			modelListener->can_status_mcs_l_motor_driver_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_R_MOTOR_DRIVER_OK_ID:
+		case StatusRMD_ID:
 			modelListener->can_status_mcs_r_motor_driver_update_value(message.value);
 			break;
-		case I2C_CAN_STATUS_AMS_OK_ID:
+		case StatusAms_ID:
 			modelListener->can_status_mcs_ams_update_value(message.value);
 			break;
 
-		case MSG_ID_SCREEN4:
-//			FrontendApplication* App4;
+		case Screen4_ID:
 			App4 = static_cast<FrontendApplication*>(Application::getInstance());
 			App4->goto_screen4();
 			break;
 
 
-		case I2C_CAR_CONFIG_BRAKE_MIN_VALUE_ID:
+		case BrakeMin_ID:
 			modelListener->car_config_brake_min_update_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_BRAKE_MAX_VALUE_ID:
+		case BrakeMax_ID:
 			modelListener->car_config_brake_max_update_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_BRAKE_REL_VALUE_ID:
+		case BrakeRel_ID:
 			modelListener->car_config_brake_rel_update_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_BRAKE_REL_ACCEPTED:
+		case BrakeRelOk_ID:
 			modelListener->car_config_brake_rel_accepted_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_THROTTLE_MIN_VALUE_ID:
+		case ThrottleMin_ID:
 			modelListener->car_config_throttle_min_update_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_THROTTLE_MAX_VALUE_ID:
+		case ThrottleMax_ID:
 			modelListener->car_config_throttle_max_update_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_THROTTLE_REL_VALUE_ID:
+		case ThrottleRel_ID:
 			modelListener->car_config_throttle_rel_update_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_THROTTLE_REL_ACCEPTED:
+		case ThrottleRelOk_ID:
 			modelListener->car_config_throttle_rel_accepted_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_SELECT_STATIONARY_MODE:
+		case StationaryMode_ID:
 			modelListener->car_config_select_stationary_mode_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_SELECT_DRIVING_MODE:
+		case DrivingMode_ID:
 			modelListener->car_config_select_driving_mode_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_SELECT_REPEAT_CALIBRATION:
+		case RepeatCallibration_ID:
 			modelListener->car_config_select_repeat_calibration_value(message.value);
 			break;
-		case I2C_CAR_CONFIG_DASHBOARD_RESET_ID:
+		case DashReset_ID:
 			modelListener->car_config_dashboard_reset_value(message.value);
 			break;
 
 
-		case MSG_ID_SCREEN2:
-//			FrontendApplication* App;
+		case Screen2_ID:
 			App = static_cast<FrontendApplication*>(Application::getInstance());
 			App->goto_screen2();
 			break;
 
-		case I2C_DRIVE_P2D_ID:
+		case P2D_ID:
 			modelListener->p2d_update_value(message.value);
 			break;
-		case I2C_DRIVE_TS_ID:
+		case TS_ID:
 			modelListener->ts_update_value(message.value);
 			break;
-		case I2C_DRIVE_MAP_ID:
+		case MAP_ID:
 			modelListener->map_update_value(message.value);
 			break;
-		case I2C_DRIVE_TC_ID:
+		case TC_ID:
 			modelListener->tc_update_value(message.value);
 			break;
-		case I2C_DRIVE_SPEED_ID:
+		case SPEED_ID:
 			modelListener->speed_update_value(message.value);
 			break;
-		case I2C_DRIVE_DIFF_ID:
+		case DIFF_ID:
 			modelListener->diff_update_value(message.value);
 			break;
-		case I2C_DRIVE_TSAC_ID:
+		case TSAC_ID:
 			modelListener->tsac_update_value(message.value);
 			break;
-		case I2C_DRIVE_LENG_ID:
+		case LENG_ID:
 			modelListener->leng_update_value(message.value);
 			break;
-		case I2C_DRIVE_LINV_ID:
+		case LINV_ID:
 			modelListener->linv_update_value(message.value);
 			break;
-		case I2C_DRIVE_BAT_ID:
+		case BAT_ID:
 			modelListener->bat_update_value(message.value);
 			break;
-		case I2C_DRIVE_RINV_ID:
+		case RINV_ID:
 			modelListener->rinv_update_value(message.value);
 			break;
-		case I2C_DRIVE_RENG_ID:
+		case RENG_ID:
 			modelListener->reng_update_value(message.value);
 			break;
-		case I2C_DRIVE_ERR_ID:
+		case ERR_ID:
 			modelListener->err_update_value(message.value);
 			break;
-		case I2C_DRIVE_HV_ID:
+		case HV_ID:
 			modelListener->hv_update_value(message.value);
 			break;
-		case I2C_DRIVE_LOW_ID:
+		case LOW_ID:
 			modelListener->low_update_value(message.value);
 			break;
-		case I2C_DRIVE_THROTTLE_ID:
+		case THROTTLE_ID:
 			modelListener->drive_throttle_update_value(message.value);
 			break;
-		case I2C_DRIVE_SELECT_MAP_ID:
+		case SelectMAP_ID:
 			modelListener->drive_select_map_update_value(message.value);
 			break;
-		case I2C_DRIVE_SELECT_TC_ID:
+		case SelectTC_ID:
 			modelListener->drive_select_tc_update_value(message.value);
 			break;
-		case I2C_DRIVE_SELECT_DIFF_ID:
+		case SelectDIFF_ID:
 			modelListener->drive_select_diff_update_value(message.value);
 			break;
-		case I2C_DRIVE_SELECT_TSAC_ID:
+		case SelectTSAC_ID:
 			modelListener->drive_select_tsac_update_value(message.value);
 			break;
 		}
